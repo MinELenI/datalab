@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:SpatialDataSet xmlns:ad="urn:x-inspire:specification:gmlas:Addresses:3.0"
+                     xmlns:au="urn:x-inspire:specification:gmlas:AdministrativeUnits:3.0"
+                     xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2"
+                     xmlns:bui="urn:x-inspire:specification:gmlas:Buildings:0.0"
+                     xmlns:cp="urn:x-inspire:specification:gmlas:CadastralParcels:3.0"
+                     xmlns:gml="http://www.opengis.net/gml/3.2"
+                     xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0"
+                     xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0"
+                     xmlns:gco="http://www.isotc211.org/2005/gco"
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                     xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                     xmlns:gts="http://www.isotc211.org/2005/gts"
+                     xmlns:tn-a="urn:x-inspire:specification:gmlas:AirTransportNetwork:3.0"
+                     xmlns:stat="urn:x-inspire:specification:gmlas:StatisticalUnits:0.0"
+                     xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2"
+                     xmlns:gss="http://www.isotc211.org/2005/gss" gml:id="NL.KAD.BAG"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+        xsi:schemaLocation="urn:x-inspire:specification:gmlas:BaseTypes:3.2 http://inspire.ec.europa.eu/schemas/base/3.2/BaseTypes.xsd
+                     urn:x-inspire:specification:gmlas:Addresses:3.0 http://inspire.ec.europa.eu/schemas/ad/3.0/Addresses.xsd
+                     urn:x-inspire:specification:gmlas:GeographicalNames:3.0 http://inspire.ec.europa.eu/schemas/gn/3.0/GeographicalNames.xsd"
+        >
+    <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role=""
+                          xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none">
+        <gml:GenericMetaData gml:id="NL.KAD.BAG.38da89ee-ad33-493f-a17a-ba66d51906511"></gml:GenericMetaData>
+    </gml:metaDataProperty>
+    <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole=""
+                     xlink:title="" xlink:show="none" xlink:actuate="none"></gml:description>
+    <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                              xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+    <gml:identifier codeSpace=""></gml:identifier>
+    <gml:name codeSpace=""></gml:name>
+    <gml:boundedBy nilReason="">
+        <gml:Envelope srsName="EPSG:4258">
+            <gml:lowerCorner>4.0 50.0</gml:lowerCorner>
+            <gml:upperCorner>6.0 53.0</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+    <base:identifier>
+        <base:Identifier>
+            <base:localId>0</base:localId>
+            <base:namespace>NL.KAD.BAG</base:namespace>
+            <base:versionId nilReason=""></base:versionId>
+        </base:Identifier>
+    </base:identifier>
+    <ad:Address xmlns:ad="urn:x-inspire:specification:gmlas:Addresses:3.0"
+                xmlns:au="urn:x-inspire:specification:gmlas:AdministrativeUnits:3.0"
+                xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2"
+                xmlns:bui="urn:x-inspire:specification:gmlas:Buildings:0.0"
+                xmlns:cp="urn:x-inspire:specification:gmlas:CadastralParcels:3.0"
+                xmlns:gml="http://www.opengis.net/gml/3.2"
+                xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0"
+                xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0"
+                xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                xmlns:gts="http://www.isotc211.org/2005/gts"
+                xmlns:tn-a="urn:x-inspire:specification:gmlas:AirTransportNetwork:3.0"
+                xmlns:stat="urn:x-inspire:specification:gmlas:StatisticalUnits:0.0"
+                xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:gss="http://www.isotc211.org/2005/gss"
+                gml:id="NL.KAD.BAG.fece1919-10e3-4e00-8454-e8a91df26cf80">
+        <ad:inspireId>
+            <base:Identifier>
+                <base:localId>873200000450257</base:localId>
+                <base:namespace>NL.KAD.BAG</base:namespace>
+                <base:versionId nilReason=""/>
+            </base:Identifier>
+        </ad:inspireId>
+        <ad:alternativeIdentifier nilReason=""/>
+        <ad:position>
+            <ad:GeographicPosition>
+                <ad:geometry nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role=""
+                             xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none" owns="false">
+                    <gml:Point srsName="EPSG:4258" srsDimension="2" axisLabels="" uomLabels=""
+                               gml:id="NL.KAD.BAG.7454922">
+                        <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple"
+                                              xlink:href="" xlink:role="" xlink:arcrole="" xlink:title=""
+                                              xlink:show="none" xlink:actuate="none">
+                            <gml:GenericMetaData gml:id="NL.KAD.BAG.fece1919-10e3-4e00-8454-e8a91df26cf82"/>
+                        </gml:metaDataProperty>
+                        <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                                         xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none"
+                                         xlink:actuate="none"/>
+                        <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple"
+                                                  xlink:href="" xlink:role="" xlink:arcrole="" xlink:title=""
+                                                  xlink:show="none" xlink:actuate="none"/>
+                        <gml:identifier codeSpace="">7454922</gml:identifier>
+                        <gml:name codeSpace=""/>
+                        <gml:pos>4.3603460106363121 51.427441946044375</gml:pos>
+                    </gml:Point>
+                </ad:geometry>
+                <ad:specification nilReason="" codeSpace=""/>
+                <ad:method nilReason="" codeSpace=""/>
+                <ad:default/>
+            </ad:GeographicPosition>
+        </ad:position>
+        <ad:status nilReason="" codeSpace=""/>
+        <ad:locator>
+            <ad:AddressLocator>
+                <ad:designator>
+                    <ad:LocatorDesignator>
+                        <ad:designator/>
+                        <ad:type codeSpace=""/>
+                    </ad:LocatorDesignator>
+                </ad:designator>
+                <ad:name>
+                    <ad:LocatorName>
+                        <ad:name>
+                            <gn:GeographicalName>
+                                <gn:language nilReason="">NL</gn:language>
+                                <gn:nativeness nilReason="" codeSpace=""/>
+                                <gn:nameStatus nilReason="" codeSpace="">Naamgeving uitgegeven</gn:nameStatus>
+                                <gn:sourceOfName nilReason=""/>
+                                <gn:pronunciation nilReason="">
+                                    <gn:PronunciationOfName>
+                                        <gn:pronunciationSoundLink nilReason=""/>
+                                        <gn:pronunciationIPA nilReason=""/>
+                                    </gn:PronunciationOfName>
+                                </gn:pronunciation>
+                                <gn:spelling>
+                                    <gn:SpellingOfName>
+                                        <gn:text>62 d 2</gn:text>
+                                        <gn:script nilReason=""/>
+                                        <gn:transliterationScheme nilReason=""/>
+                                    </gn:SpellingOfName>
+                                </gn:spelling>
+                                <gn:grammaticalGender nilReason="" codeSpace=""/>
+                                <gn:grammaticalNumber nilReason="" codeSpace=""/>
+                            </gn:GeographicalName>
+                        </ad:name>
+                        <ad:type codeSpace="">2</ad:type>
+                    </ad:LocatorName>
+                </ad:name>
+                <ad:level codeSpace=""/>
+                <ad:withinScopeOf owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                                  xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+            </ad:AddressLocator>
+        </ad:locator>
+        <ad:validFrom nilReason="">20091001000001</ad:validFrom>
+        <ad:validTo nilReason=""/>
+        <ad:beginLifespanVersion nilReason=""/>
+        <ad:endLifespanVersion nilReason=""/>
+        <ad:parcel owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role=""
+                   xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+        <ad:parentAddress owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role=""
+                          xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+        <ad:building owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role=""
+                     xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+        <ad:component nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole=""
+                      xlink:title="" xlink:show="none" xlink:actuate="none" owns="false"/>
+        <ad:ThoroughfareName>
+            <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                                  xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none">
+                <gml:GenericMetaData gml:id="NL.KAD.BAG.fece1919-10e3-4e00-8454-e8a91df26cf83"/>
+            </gml:metaDataProperty>
+            <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role=""
+                             xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+            <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                                      xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none"
+                                      xlink:actuate="none"/>
+            <gml:identifier codeSpace="">873300000411202</gml:identifier>
+            <gml:name codeSpace=""/>
+            <ad:alternativeIdentifier nilReason=""/>
+            <ad:beginLifespanVersion nilReason=""/>
+            <ad:endLifespanVersion nilReason=""/>
+            <ad:status nilReason="" codeSpace=""/>
+            <ad:validFrom nilReason=""/>
+            <ad:validTo nilReason=""/>
+            <ad:situatedWithin owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                               xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+            <ad:name>
+                <gn:GeographicalName>
+                    <gn:language nilReason="">NL</gn:language>
+                    <gn:nativeness nilReason="" codeSpace=""/>
+                    <gn:nameStatus nilReason="" codeSpace=""/>
+                    <gn:sourceOfName nilReason=""/>
+                    <gn:pronunciation nilReason="">
+                        <gn:PronunciationOfName>
+                            <gn:pronunciationSoundLink nilReason=""/>
+                            <gn:pronunciationIPA nilReason=""/>
+                        </gn:PronunciationOfName>
+                    </gn:pronunciation>
+                    <gn:spelling>
+                        <gn:SpellingOfName>
+                            <gn:text>Westerstraat</gn:text>
+                            <gn:script nilReason=""/>
+                            <gn:transliterationScheme nilReason=""/>
+                        </gn:SpellingOfName>
+                    </gn:spelling>
+                    <gn:grammaticalGender nilReason="" codeSpace=""/>
+                    <gn:grammaticalNumber nilReason="" codeSpace=""/>
+                </gn:GeographicalName>
+            </ad:name>
+            <ad:transportLink owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                              xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+        </ad:ThoroughfareName>
+        <ad:PostalDescriptor>
+            <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                                  xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none">
+                <gml:GenericMetaData gml:id="NL.KAD.BAG.fece1919-10e3-4e00-8454-e8a91df26cf88"/>
+            </gml:metaDataProperty>
+            <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role=""
+                             xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+            <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                                      xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none"
+                                      xlink:actuate="none"/>
+            <gml:identifier codeSpace=""/>
+            <gml:name codeSpace=""/>
+            <ad:alternativeIdentifier nilReason=""/>
+            <ad:beginLifespanVersion nilReason=""/>
+            <ad:endLifespanVersion nilReason=""/>
+            <ad:status nilReason="" codeSpace=""/>
+            <ad:validFrom nilReason=""/>
+            <ad:validTo nilReason=""/>
+            <ad:situatedWithin owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                               xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+            <ad:postName>
+                <gn:GeographicalName>
+                    <gn:language nilReason="">NL</gn:language>
+                    <gn:nativeness nilReason="" codeSpace=""/>
+                    <gn:nameStatus nilReason="" codeSpace=""/>
+                    <gn:sourceOfName nilReason=""/>
+                    <gn:pronunciation nilReason="">
+                        <gn:PronunciationOfName>
+                            <gn:pronunciationSoundLink nilReason=""/>
+                            <gn:pronunciationIPA nilReason=""/>
+                        </gn:PronunciationOfName>
+                    </gn:pronunciation>
+                    <gn:spelling>
+                        <gn:SpellingOfName>
+                            <gn:text/>
+                            <gn:script nilReason=""/>
+                            <gn:transliterationScheme nilReason=""/>
+                        </gn:SpellingOfName>
+                    </gn:spelling>
+                    <gn:grammaticalGender nilReason="" codeSpace=""/>
+                    <gn:grammaticalNumber nilReason="" codeSpace=""/>
+                </gn:GeographicalName>
+            </ad:postName>
+            <ad:postCode/>
+        </ad:PostalDescriptor>
+        <ad:AdminUnitName>
+            <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                                  xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none">
+                <gml:GenericMetaData gml:id="NL.KAD.BAG.fece1919-10e3-4e00-8454-e8a91df26cf813"/>
+            </gml:metaDataProperty>
+            <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role=""
+                             xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+            <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                                      xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none"
+                                      xlink:actuate="none"/>
+            <gml:identifier codeSpace="">1000</gml:identifier>
+            <gml:name codeSpace="">Hoogerheide</gml:name>
+            <ad:alternativeIdentifier nilReason=""/>
+            <ad:beginLifespanVersion nilReason=""/>
+            <ad:endLifespanVersion nilReason=""/>
+            <ad:status nilReason="" codeSpace=""/>
+            <ad:validFrom nilReason=""/>
+            <ad:validTo nilReason=""/>
+            <ad:situatedWithin owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href=""
+                               xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+            <ad:name>
+                <gn:GeographicalName>
+                    <gn:language nilReason="">NL</gn:language>
+                    <gn:nativeness nilReason="" codeSpace=""/>
+                    <gn:nameStatus nilReason="" codeSpace=""/>
+                    <gn:sourceOfName nilReason=""/>
+                    <gn:pronunciation nilReason="">
+                        <gn:PronunciationOfName>
+                            <gn:pronunciationSoundLink nilReason=""/>
+                            <gn:pronunciationIPA nilReason=""/>
+                        </gn:PronunciationOfName>
+                    </gn:pronunciation>
+                    <gn:spelling>
+                        <gn:SpellingOfName>
+                            <gn:text>Hoogerheide</gn:text>
+                            <gn:script nilReason=""/>
+                            <gn:transliterationScheme nilReason=""/>
+                        </gn:SpellingOfName>
+                    </gn:spelling>
+                    <gn:grammaticalGender nilReason="" codeSpace=""/>
+                    <gn:grammaticalNumber nilReason="" codeSpace=""/>
+                </gn:GeographicalName>
+            </ad:name>
+            <ad:level codeSpace=""/>
+            <ad:adminUnit owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role=""
+                          xlink:arcrole="" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+        </ad:AdminUnitName>
+    </ad:Address>
+</base:SpatialDataSet>

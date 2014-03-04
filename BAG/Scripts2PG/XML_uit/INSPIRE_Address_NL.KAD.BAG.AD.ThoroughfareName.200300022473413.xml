@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:SpatialDataSet xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:ad="urn:x-inspire:specification:gmlas:Addresses:3.0" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xsi:schemaLocation="urn:x-inspire:specification:gmlas:BaseTypes:3.2 http://inspire.ec.europa.eu/schemas/base/3.2/BaseTypes.xsd                      urn:x-inspire:specification:gmlas:Addresses:3.0 http://inspire.ec.europa.eu/schemas/ad/3.0/Addresses.xsd                      urn:x-inspire:specification:gmlas:GeographicalNames:3.0 http://inspire.ec.europa.eu/schemas/gn/3.0/GeographicalNames.xsd" gml:id="Addresses.1">
+  <base:identifier>
+    <base:Identifier>
+      <base:localId>0</base:localId>
+      <base:namespace>NL.KAD.BAG</base:namespace>
+      <base:versionId xsi:nil="true" nilReason="other:unpopulated"/>
+    </base:Identifier>
+  </base:identifier>
+  <base:metadata xsi:nil="true"/>
+<base:member>
+<ad:ThoroughfareName  gml:id="NL.KAD.BAG.AD.ThoroughfareName.200300022473413">
+   <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/">
+     urn:x-inspire:object:id:NL.KAD.BAG.AD.ThoroughfareName.200300022473413
+   </gml:identifier>
+   <ad:inspireId>
+    <base:Identifier>
+      <base:localId>200300022473413</base:localId>
+      <base:namespace>NL.KAD.BAG.AD.ThoroughfareName</base:namespace>
+    </base:Identifier>
+   </ad:inspireId>
+  <ad:beginLifespanVersion xsi:nil="true" nilReason="other:unpopulated"/>
+  <ad:endLifespanVersion xsi:nil="true" nilReason="other:unpopulated"/>
+  <ad:status xsi:nil="true" nilReason="other:unpopulated"/>
+  <ad:validFrom>2012-06-15T00:00:00</ad:validFrom>
+  <ad:validTo xsi:nil="true" nilReason="other:unpopulated"/>
+  <ad:name>
+    <gn:GeographicalName>
+      <gn:language>NL</gn:language>
+      <gn:nativeness>endonym</gn:nativeness>
+      <gn:nameStatus nilReason="other:unpopulated" xsi:nil="true"/>
+      <gn:sourceOfName>Kadaster</gn:sourceOfName>
+      <gn:pronunciation nilReason="other:unpopulated" xsi:nil="true"/>
+      <gn:spelling>
+        <gn:SpellingOfName>
+          <gn:text>Schapendoesweg</gn:text>
+            <gn:script>Latn</gn:script>
+        </gn:SpellingOfName>
+      </gn:spelling>
+    </gn:GeographicalName>
+  </ad:name>
+ </ad:ThoroughfareName>
+</base:member>
+</base:SpatialDataSet>

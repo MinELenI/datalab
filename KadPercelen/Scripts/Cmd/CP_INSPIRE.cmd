@@ -1,0 +1,3 @@
+fme ..\FME\BRK_INSPIRE_CP.fmw  --LOG_FILE      "..\log\BRK_INSPIRE_CP100000.log"    --MAX_FEATURES  100000
+
+

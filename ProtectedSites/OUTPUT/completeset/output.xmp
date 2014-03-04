@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xfMap xmlns="http://www.safe.com/xml/xfmap" xmlns:fme="http://www.safe.com/xml/xmltables">
+<schema-map>
+<schema-type>
+<inline>
+<schema-feature type="NewFeatureType">
+<schema-attribute name="txt_line" type="xml_char(30)"/>
+<schema-attribute name="fme_geometry{0}" type="xml_no_geom"/>
+</schema-feature>
+<schema-feature type="1419">
+<schema-attribute name="txt_line" type="xml_char(30)"/>
+<schema-attribute name="fme_geometry{0}" type="xml_no_geom"/>
+</schema-feature>
+<schema-feature type="1451">
+<schema-attribute name="txt_line" type="xml_char(30)"/>
+<schema-attribute name="fme_geometry{0}" type="xml_no_geom"/>
+</schema-feature>
+<schema-feature type="1447">
+<schema-attribute name="txt_line" type="xml_char(30)"/>
+<schema-attribute name="fme_geometry{0}" type="xml_no_geom"/>
+</schema-feature>
+<schema-feature type="1448">
+<schema-attribute name="txt_line" type="xml_char(30)"/>
+<schema-attribute name="fme_geometry{0}" type="xml_no_geom"/>
+</schema-feature>
+<schema-feature type="1449">
+<schema-attribute name="txt_line" type="xml_char(30)"/>
+<schema-attribute name="fme_geometry{0}" type="xml_no_geom"/>
+</schema-feature>
+</inline>
+</schema-type>
+</schema-map>
+<feature-map>
+<mapping match="fme:NewFeatureType">
+<feature-type><literal expr="NewFeatureType"/></feature-type>
+<attributes>
+<attribute><name><literal expr="txt_line"/></name><value><extract expr="./fme:txt_line"/></value></attribute>
+</attributes>
+</mapping>
+<mapping match="fme:1419">
+<feature-type><literal expr="1419"/></feature-type>
+<attributes>
+<attribute><name><literal expr="txt_line"/></name><value><extract expr="./fme:txt_line"/></value></attribute>
+</attributes>
+</mapping>
+<mapping match="fme:1451">
+<feature-type><literal expr="1451"/></feature-type>
+<attributes>
+<attribute><name><literal expr="txt_line"/></name><value><extract expr="./fme:txt_line"/></value></attribute>
+</attributes>
+</mapping>
+<mapping match="fme:1447">
+<feature-type><literal expr="1447"/></feature-type>
+<attributes>
+<attribute><name><literal expr="txt_line"/></name><value><extract expr="./fme:txt_line"/></value></attribute>
+</attributes>
+</mapping>
+<mapping match="fme:1448">
+<feature-type><literal expr="1448"/></feature-type>
+<attributes>
+<attribute><name><literal expr="txt_line"/></name><value><extract expr="./fme:txt_line"/></value></attribute>
+</attributes>
+</mapping>
+<mapping match="fme:1449">
+<feature-type><literal expr="1449"/></feature-type>
+<attributes>
+<attribute><name><literal expr="txt_line"/></name><value><extract expr="./fme:txt_line"/></value></attribute>
+</attributes>
+</mapping>
+</feature-map>
+</xfMap>

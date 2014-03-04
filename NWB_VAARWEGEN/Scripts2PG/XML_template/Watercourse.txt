@@ -1,0 +1,81 @@
+<hy-p:Watercourse xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2"
+ xmlns:gmd="http://www.isotc211.org/2005/gmd"
+ xmlns:gml="http://www.opengis.net/gml/3.2"
+ xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0"
+ xmlns:hy="urn:x-inspire:specification:gmlas:HydroBase:3.0"
+ xmlns:hy-p="urn:x-inspire:specification:gmlas:HydroPhysicalWaters:3.0"
+ xmlns:lc="urn:x-inspire:specification:gmlas:LandCover:0.0"
+ xmlns:gco="http://www.isotc211.org/2005/gco"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:gsr="http://www.isotc211.org/2005/gsr"
+ xmlns:gts="http://www.isotc211.org/2005/gts"
+ xmlns:sr="urn:x-inspire:specification:gmlas:SeaRegions:0.0"
+ xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2"
+ xmlns:hy-n="urn:x-inspire:specification:gmlas:HydroNetwork:3.0"
+ xmlns:nrz="urn:x-inspire:specification:gmlas:NaturalRiskZones:0.0"
+ xmlns:wfd="urn:x-inspire:specification:gmlas:WaterFrameworkDirective:0.0"
+ xmlns:gss="http://www.isotc211.org/2005/gss"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:x-inspire:specification:gmlas:BaseTypes:3.2 http://inspire.ec.europa.eu/schemas/base/3.2/BaseTypes.xsd
+ urn:x-inspire:specification:gmlas:HydroPhysicalWaters:3.0 http://inspire.ec.europa.eu/schemas/hy-p/3.0/HydroPhysicalWaters.xsd
+ urn:x-inspire:specification:gmlas:GeographicalNames:3.0 http://inspire.ec.europa.eu/schemas/gn/3.0/GeographicalNames.xsd" gml:id="">
+  <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/">urn:x-inspire:object:id:NL.RWS.NWB.HY-P.</gml:identifier>
+  <hy-p:geographicalName nilReason="">
+    <gn:GeographicalName>
+      <gn:language>NL</gn:language>
+      <gn:nativeness>endonym</gn:nativeness>
+      <gn:nameStatus nilReason="other:unpopulated" xsi:nil="true"></gn:nameStatus>
+      <gn:sourceOfName>Rijkswaterstaat</gn:sourceOfName>
+      <gn:spelling>
+        <gn:SpellingOfName>
+          <gn:text></gn:text>
+          <gn:script>Latn</gn:script>
+          <gn:transliterationScheme nilReason="other:unpopulated" xsi:nil="true"/>
+        </gn:SpellingOfName>
+      </gn:spelling>
+      <gn:grammaticalGender nilReason="other:unpopulated" xsi:nil="true"/>
+      <gn:grammaticalNumber nilReason="other:unpopulated" xsi:nil="true"/>
+    </gn:GeographicalName>
+  </hy-p:geographicalName>
+  <hy-p:hydroId nilReason="">
+    <hy:HydroIdentifier>
+      <hy:classificationScheme></hy:classificationScheme>
+      <hy:localId></hy:localId>
+      <hy:namespace></hy:namespace>
+    </hy:HydroIdentifier>
+  </hy-p:hydroId>
+  <hy-p:relatedHydroObject owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <hy-p:beginLifespanVersion nilReason=""></hy-p:beginLifespanVersion>
+  <hy-p:endLifespanVersion nilReason="other:unpopulated" xsi:nil="true"></hy-p:endLifespanVersion>
+  <hy-p:geometry nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="none" xlink:arcrole="none" xlink:title="" xlink:show="none" xlink:actuate="none" owns="false">
+    <gml:LineString srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2" gml:id="NL.RWS.NWB.HY-P._L">
+      <gml:coordinates>""</gml:coordinates>
+    </gml:LineString>
+  </hy-p:geometry>
+  <hy-p:inspireId>
+    <base:Identifier>
+      <base:localId></base:localId>
+      <base:namespace>NL.RWS.NWB.HY-P</base:namespace>
+      <base:versionId nilReason="other:unpopulated" xsi:nil="true"></base:versionId>
+    </base:Identifier>
+  </hy-p:inspireId>
+  <hy-p:levelOfDetail owns="false">
+    <gmd:MD_Resolution></gmd:MD_Resolution>
+  </hy-p:levelOfDetail>
+  <hy-p:localType gco:nilReason="" uuidref="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+    <gmd:LocalisedCharacterString id="" locale=""></gmd:LocalisedCharacterString>
+  </hy-p:localType>
+  <hy-p:origin nilReason="other:unpopulated" xsi:nil="true"></hy-p:origin>
+  <hy-p:persistence nilReason="other:unpopulated" xsi:nil="true"></hy-p:persistence>
+  <hy-p:tidal nilReason="other:unpopulated" xsi:nil="true"></hy-p:tidal>
+  <hy-p:bank owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <hy-p:drainsBasin owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <hy-p:neighbour owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <hy-p:condition nilReason="other:unpopulated" xsi:nil="true"></hy-p:condition>
+  <hy-p:delineationKnown nilReason=""></hy-p:delineationKnown>
+  <hy-p:length nilReason="" uom="METER"></hy-p:length>
+  <hy-p:level nilReason="other:unpopulated" xsi:nil="true"></hy-p:level>
+  <hy-p:streamOrder nilReason="other:unpopulated" xsi:nil="true"></hy-p:streamOrder>
+  <hy-p:width nilReason="other:unpopulated" xsi:nil="true"></hy-p:width>
+</hy-p:Watercourse>
+

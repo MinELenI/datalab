@@ -1,0 +1,85 @@
+~/project/customers/kadaster/svn/project/inspire-foss/trunk/tools/validator/bin/validate.sh datalab/data/addresses/doel/test_5.3.xml
+[INFO] Validating: datalab/data/addresses/doel/test_5.3.xml
+[Error] test_5.3.xml:27:1020: cvc-complex-type.2.4.a: Invalid content was found starting with element 'ad:Address'. One of '{"urn:x-inspire:specification:gmlas:BaseTypes:3.2":metadata}' is expected.
+[Error] test_5.3.xml:43:29: cvc-complex-type.2.4.b: The content of element 'ad:GeographicPosition' is not complete. One of '{"urn:x-inspire:specification:gmlas:Addresses:3.0":specification}' is expected.
+[Error] test_5.3.xml:52:30: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:65:117: cvc-elt.3.1: Attribute 'http://www.w3.org/2001/XMLSchema-instance,nil' must not appear on element 'ad:level', because the {nillable} property of 'ad:level' is false.
+[Error] test_5.3.xml:65:117: cvc-complex-type.3.2.2: Attribute 'nilReason' is not allowed to appear in element 'ad:level'.
+[Error] test_5.3.xml:68:46: cvc-datatype-valid.1.2.1: '20091001000001' is not a valid value for 'dateTime'.
+[Error] test_5.3.xml:68:46: cvc-complex-type.2.2: Element 'ad:validFrom' must have no element [children], and the value must be valid.
+[Error] test_5.3.xml:69:16: cvc-datatype-valid.1.2.1: '' is not a valid value for 'dateTime'.
+[Error] test_5.3.xml:69:16: cvc-complex-type.2.2: Element 'ad:validTo' must have no element [children], and the value must be valid.
+[Error] test_5.3.xml:75:79: cvc-complex-type.2.4.a: Invalid content was found starting with element 'ad:ThoroughfareName'. One of '{"urn:x-inspire:specification:gmlas:Addresses:3.0":component}' is expected.
+[Error] test_5.3.xml:86:122: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:97:64: cvc-complex-type.3.2.2: Attribute 'gml_id' is not allowed to appear in element 'ad:PostalDescriptor'.
+[Error] test_5.3.xml:97:64: cvc-complex-type.4: Attribute 'id' must appear on element 'ad:PostalDescriptor'.
+[Error] test_5.3.xml:107:122: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:173:29: cvc-complex-type.2.4.b: The content of element 'ad:GeographicPosition' is not complete. One of '{"urn:x-inspire:specification:gmlas:Addresses:3.0":specification}' is expected.
+[Error] test_5.3.xml:182:30: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:195:117: cvc-elt.3.1: Attribute 'http://www.w3.org/2001/XMLSchema-instance,nil' must not appear on element 'ad:level', because the {nillable} property of 'ad:level' is false.
+[Error] test_5.3.xml:195:117: cvc-complex-type.3.2.2: Attribute 'nilReason' is not allowed to appear in element 'ad:level'.
+[Error] test_5.3.xml:198:46: cvc-datatype-valid.1.2.1: '20091001000001' is not a valid value for 'dateTime'.
+[Error] test_5.3.xml:198:46: cvc-complex-type.2.2: Element 'ad:validFrom' must have no element [children], and the value must be valid.
+[Error] test_5.3.xml:199:16: cvc-datatype-valid.1.2.1: '' is not a valid value for 'dateTime'.
+[Error] test_5.3.xml:199:16: cvc-complex-type.2.2: Element 'ad:validTo' must have no element [children], and the value must be valid.
+[Error] test_5.3.xml:205:79: cvc-complex-type.2.4.a: Invalid content was found starting with element 'ad:ThoroughfareName'. One of '{"urn:x-inspire:specification:gmlas:Addresses:3.0":component}' is expected.
+[Error] test_5.3.xml:205:79: cvc-id.2: There are multiple occurrences of ID value 'NL.KAD.BAG.AD.ThoroughfareName.873300000411202'.
+[Error] test_5.3.xml:205:79: cvc-attribute.3: The value 'NL.KAD.BAG.AD.ThoroughfareName.873300000411202' of attribute 'gml:id' on element 'ad:ThoroughfareName' is not valid with respect to its type, 'ID'.
+[Error] test_5.3.xml:216:122: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:227:64: cvc-complex-type.3.2.2: Attribute 'gml_id' is not allowed to appear in element 'ad:PostalDescriptor'.
+[Error] test_5.3.xml:227:64: cvc-complex-type.4: Attribute 'id' must appear on element 'ad:PostalDescriptor'.
+[Error] test_5.3.xml:237:122: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:249:66: cvc-id.2: There are multiple occurrences of ID value 'NL.KAD.BAG.AD.AddressAreaName.1000'.
+[Error] test_5.3.xml:249:66: cvc-attribute.3: The value 'NL.KAD.BAG.AD.AddressAreaName.1000' of attribute 'gml:id' on element 'ad:AddressAreaName' is not valid with respect to its type, 'ID'.
+[Error] test_5.3.xml:303:29: cvc-complex-type.2.4.b: The content of element 'ad:GeographicPosition' is not complete. One of '{"urn:x-inspire:specification:gmlas:Addresses:3.0":specification}' is expected.
+[Error] test_5.3.xml:312:30: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:325:117: cvc-elt.3.1: Attribute 'http://www.w3.org/2001/XMLSchema-instance,nil' must not appear on element 'ad:level', because the {nillable} property of 'ad:level' is false.
+[Error] test_5.3.xml:325:117: cvc-complex-type.3.2.2: Attribute 'nilReason' is not allowed to appear in element 'ad:level'.
+[Error] test_5.3.xml:328:46: cvc-datatype-valid.1.2.1: '20091001000001' is not a valid value for 'dateTime'.
+[Error] test_5.3.xml:328:46: cvc-complex-type.2.2: Element 'ad:validFrom' must have no element [children], and the value must be valid.
+[Error] test_5.3.xml:329:16: cvc-datatype-valid.1.2.1: '' is not a valid value for 'dateTime'.
+[Error] test_5.3.xml:329:16: cvc-complex-type.2.2: Element 'ad:validTo' must have no element [children], and the value must be valid.
+[Error] test_5.3.xml:335:79: cvc-complex-type.2.4.a: Invalid content was found starting with element 'ad:ThoroughfareName'. One of '{"urn:x-inspire:specification:gmlas:Addresses:3.0":component}' is expected.
+[Error] test_5.3.xml:335:79: cvc-id.2: There are multiple occurrences of ID value 'NL.KAD.BAG.AD.ThoroughfareName.873300000411202'.
+[Error] test_5.3.xml:335:79: cvc-attribute.3: The value 'NL.KAD.BAG.AD.ThoroughfareName.873300000411202' of attribute 'gml:id' on element 'ad:ThoroughfareName' is not valid with respect to its type, 'ID'.
+[Error] test_5.3.xml:346:122: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:357:64: cvc-complex-type.3.2.2: Attribute 'gml_id' is not allowed to appear in element 'ad:PostalDescriptor'.
+[Error] test_5.3.xml:357:64: cvc-complex-type.4: Attribute 'id' must appear on element 'ad:PostalDescriptor'.
+[Error] test_5.3.xml:367:122: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:379:66: cvc-id.2: There are multiple occurrences of ID value 'NL.KAD.BAG.AD.AddressAreaName.1000'.
+[Error] test_5.3.xml:379:66: cvc-attribute.3: The value 'NL.KAD.BAG.AD.AddressAreaName.1000' of attribute 'gml:id' on element 'ad:AddressAreaName' is not valid with respect to its type, 'ID'.
+[Error] test_5.3.xml:433:29: cvc-complex-type.2.4.b: The content of element 'ad:GeographicPosition' is not complete. One of '{"urn:x-inspire:specification:gmlas:Addresses:3.0":specification}' is expected.
+[Error] test_5.3.xml:442:30: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:455:117: cvc-elt.3.1: Attribute 'http://www.w3.org/2001/XMLSchema-instance,nil' must not appear on element 'ad:level', because the {nillable} property of 'ad:level' is false.
+[Error] test_5.3.xml:455:117: cvc-complex-type.3.2.2: Attribute 'nilReason' is not allowed to appear in element 'ad:level'.
+[Error] test_5.3.xml:458:46: cvc-datatype-valid.1.2.1: '20091001000001' is not a valid value for 'dateTime'.
+[Error] test_5.3.xml:458:46: cvc-complex-type.2.2: Element 'ad:validFrom' must have no element [children], and the value must be valid.
+[Error] test_5.3.xml:459:16: cvc-datatype-valid.1.2.1: '' is not a valid value for 'dateTime'.
+[Error] test_5.3.xml:459:16: cvc-complex-type.2.2: Element 'ad:validTo' must have no element [children], and the value must be valid.
+[Error] test_5.3.xml:465:79: cvc-complex-type.2.4.a: Invalid content was found starting with element 'ad:ThoroughfareName'. One of '{"urn:x-inspire:specification:gmlas:Addresses:3.0":component}' is expected.
+[Error] test_5.3.xml:465:79: cvc-id.2: There are multiple occurrences of ID value 'NL.KAD.BAG.AD.ThoroughfareName.873300000411202'.
+[Error] test_5.3.xml:465:79: cvc-attribute.3: The value 'NL.KAD.BAG.AD.ThoroughfareName.873300000411202' of attribute 'gml:id' on element 'ad:ThoroughfareName' is not valid with respect to its type, 'ID'.
+[Error] test_5.3.xml:476:122: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:487:64: cvc-complex-type.3.2.2: Attribute 'gml_id' is not allowed to appear in element 'ad:PostalDescriptor'.
+[Error] test_5.3.xml:487:64: cvc-complex-type.4: Attribute 'id' must appear on element 'ad:PostalDescriptor'.
+[Error] test_5.3.xml:497:122: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:509:66: cvc-id.2: There are multiple occurrences of ID value 'NL.KAD.BAG.AD.AddressAreaName.1000'.
+[Error] test_5.3.xml:509:66: cvc-attribute.3: The value 'NL.KAD.BAG.AD.AddressAreaName.1000' of attribute 'gml:id' on element 'ad:AddressAreaName' is not valid with respect to its type, 'ID'.
+[Error] test_5.3.xml:563:29: cvc-complex-type.2.4.b: The content of element 'ad:GeographicPosition' is not complete. One of '{"urn:x-inspire:specification:gmlas:Addresses:3.0":specification}' is expected.
+[Error] test_5.3.xml:572:30: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:585:117: cvc-elt.3.1: Attribute 'http://www.w3.org/2001/XMLSchema-instance,nil' must not appear on element 'ad:level', because the {nillable} property of 'ad:level' is false.
+[Error] test_5.3.xml:585:117: cvc-complex-type.3.2.2: Attribute 'nilReason' is not allowed to appear in element 'ad:level'.
+[Error] test_5.3.xml:588:46: cvc-datatype-valid.1.2.1: '20091001000001' is not a valid value for 'dateTime'.
+[Error] test_5.3.xml:588:46: cvc-complex-type.2.2: Element 'ad:validFrom' must have no element [children], and the value must be valid.
+[Error] test_5.3.xml:589:16: cvc-datatype-valid.1.2.1: '' is not a valid value for 'dateTime'.
+[Error] test_5.3.xml:589:16: cvc-complex-type.2.2: Element 'ad:validTo' must have no element [children], and the value must be valid.
+[Error] test_5.3.xml:595:79: cvc-complex-type.2.4.a: Invalid content was found starting with element 'ad:ThoroughfareName'. One of '{"urn:x-inspire:specification:gmlas:Addresses:3.0":component}' is expected.
+[Error] test_5.3.xml:595:79: cvc-id.2: There are multiple occurrences of ID value 'NL.KAD.BAG.AD.ThoroughfareName.873300000411202'.
+[Error] test_5.3.xml:595:79: cvc-attribute.3: The value 'NL.KAD.BAG.AD.ThoroughfareName.873300000411202' of attribute 'gml:id' on element 'ad:ThoroughfareName' is not valid with respect to its type, 'ID'.
+[Error] test_5.3.xml:606:122: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:617:64: cvc-complex-type.3.2.2: Attribute 'gml_id' is not allowed to appear in element 'ad:PostalDescriptor'.
+[Error] test_5.3.xml:617:64: cvc-complex-type.4: Attribute 'id' must appear on element 'ad:PostalDescriptor'.
+[Error] test_5.3.xml:627:122: cvc-complex-type.2.4.a: Invalid content was found starting with element 'gn:nameStatus'. One of '{"urn:x-inspire:specification:gmlas:GeographicalNames:3.0":nativeness}' is expected.
+[Error] test_5.3.xml:639:66: cvc-id.2: There are multiple occurrences of ID value 'NL.KAD.BAG.AD.AddressAreaName.1000'.
+[Error] test_5.3.xml:639:66: cvc-attribute.3: The value 'NL.KAD.BAG.AD.AddressAreaName.1000' of attribute 'gml:id' on element 'ad:AddressAreaName' is not valid with respect to its type, 'ID'.
+[INFO] Validating: DONE result = OK

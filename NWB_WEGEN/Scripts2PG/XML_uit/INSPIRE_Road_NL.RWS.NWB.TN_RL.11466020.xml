@@ -1,0 +1,69 @@
+<base:SpatialDataSet xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" 
+            xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" 
+            xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" 
+            xmlns:tn-ro="urn:x-inspire:specification:gmlas:RoadTransportNetwork:3.0" 
+            xmlns:gco="http://www.isotc211.org/2005/gco" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xmlns:xlink="http://www.w3.org/1999/xlink" 
+            xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" 
+            xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" 
+            xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gss="http://www.isotc211.org/2005/gss"
+            xsi:schemaLocation="urn:x-inspire:specification:gmlas:BaseTypes:3.2 http://inspire.ec.europa.eu/schemas/base/3.2/BaseTypes.xsd
+                                urn:x-inspire:specification:gmlas:Network:3.2 http://inspire.ec.europa.eu/schemas/net/3.2/Network.xsd
+                                urn:x-inspire:specification:gmlas:CommonTransportElements:3.0 http://inspire.ec.europa.eu/schemas/tn/3.0/CommonTransportElements.xsd
+                                urn:x-inspire:specification:gmlas:RoadTransportNetwork:3.0 http://inspire.ec.europa.eu/schemas/tn-ro/3.0/RoadTransportNetwork.xsd
+                                urn:x-inspire:specification:gmlas:GeographicalNames:3.0 http://inspire.ec.europa.eu/schemas/gn/3.0/GeographicalNames.xsd"
+             gml:id="TransportNetwork.1">
+  <base:identifier>
+    <base:Identifier>
+      <base:localId>0</base:localId>
+      <base:namespace>NL.RWS.NWB</base:namespace>
+      <base:versionId xsi:nil="true" nilReason="other:unpopulated"/>
+    </base:Identifier>
+  </base:identifier>
+  <base:metadata xsi:nil="true"/>
+ <base:member>
+<tn-ro:RoadLink xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" xmlns:tn-ro="urn:x-inspire:specification:gmlas:RoadTransportNetwork:3.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:x-inspire:specification:gmlas:BaseTypes:3.2 http://inspire.ec.europa.eu/schemas/base/3.2/BaseTypes.xsd                                 urn:x-inspire:specification:gmlas:Network:3.2 http://inspire.ec.europa.eu/schemas/net/3.2/Network.xsd                                 urn:x-inspire:specification:gmlas:CommonTransportElements:3.0 http://inspire.ec.europa.eu/schemas/tn/3.0/CommonTransportElements.xsd                                 urn:x-inspire:specification:gmlas:RoadTransportNetwork:3.0 http://inspire.ec.europa.eu/schemas/tn-ro/3.0/RoadTransportNetwork.xsd                                 urn:x-inspire:specification:gmlas:GeographicalNames:3.0 http://inspire.ec.europa.eu/schemas/gn/3.0/GeographicalNames.xsd" gml:id="NL.RWS.NWB.TN-RL.RoadLink.11466020">
+  <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/">urn:x-inspire:object:id:NL.RWS.NWB.TN-RL.RoadLink.11466020</gml:identifier>
+  <net:beginLifespanVersion>1997-12-13T00:00:00</net:beginLifespanVersion>
+  <net:inspireId>
+    <base:Identifier>
+      <base:localId>11466020</base:localId>
+      <base:namespace>NL.RWS.NWB.TN-RL.RoadLink</base:namespace>
+      <base:versionId>0</base:versionId>
+    </base:Identifier>
+  </net:inspireId>
+  <net:endLifespanVersion nilReason="other:unpopulated" xsi:nil="true"/>
+  <net:inNetwork owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="none" xlink:arcrole="none" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+  <net:centrelineGeometry nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="none" xlink:arcrole="none" xlink:title="" xlink:show="none" xlink:actuate="none" owns="false">
+    <gml:LineString srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="3" gml:id="NL.RWS.NWB.TN-RL.RoadLink.11466020_L">
+      <gml:coordinates>51.4826928919013,3.59875839761299,0 51.4825482481837,3.59870648624935,0 51.4823467142039,3.59963594552642,0 51.4824825927951,3.59970260300687,0</gml:coordinates>
+    </gml:LineString>
+  </net:centrelineGeometry>
+  <net:fictitious>false</net:fictitious>
+  <net:endNode owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="none" xlink:arcrole="none" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+  <net:startNode owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="none" xlink:arcrole="none" xlink:title="" xlink:show="none" xlink:actuate="none"/>
+  <tn:geographicalName>
+    <gn:GeographicalName>
+      <gn:language>NL</gn:language>
+      <gn:nativeness>endonym</gn:nativeness>
+      <gn:nameStatus nilReason="other:unpopulated" xsi:nil="true"/>
+      <gn:sourceOfName>RijksWaterstaat</gn:sourceOfName>
+      <gn:pronunciation nilReason="other:unpopulated" xsi:nil="true"/>
+      <gn:spelling>
+        <gn:SpellingOfName>
+          <gn:text>Haringvlietstraat</gn:text>
+          <gn:script>Latn</gn:script>
+          <gn:transliterationScheme nilReason="other:unpopulated" xsi:nil="true"/>
+        </gn:SpellingOfName>
+      </gn:spelling>
+      <gn:grammaticalGender nilReason="other:unpopulated" xsi:nil="true"/>
+      <gn:grammaticalNumber nilReason="other:unpopulated" xsi:nil="true"/>
+    </gn:GeographicalName>
+  </tn:geographicalName>
+  <tn:validFrom>1997-12-13T00:00:00</tn:validFrom>
+  <tn:validTo nilReason="other:unpopulated" xsi:nil="true"/>
+</tn-ro:RoadLink>
+ </base:member>
+</base:SpatialDataSet>

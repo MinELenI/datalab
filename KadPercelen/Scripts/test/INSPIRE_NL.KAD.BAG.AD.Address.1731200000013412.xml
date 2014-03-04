@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ad:Address xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:ad="urn:x-inspire:specification:gmlas:Addresses:3.0" xmlns:GN="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ogr="http://ogr.maptools.org/" xmlns:wfs="http://www.opengis.net/wfs" xsi:schemaLocation="urn:x-inspire:specification:gmlas:BaseTypes:3.2 http://inspire.ec.europa.eu/schemas/base/3.2/BaseTypes.xsd urn:x-inspire:specification:gmlas:Addresses:3.0 http://inspire.ec.europa.eu/schemas/ad/3.0/Addresses.xsd urn:x-inspire:specification:gmlas:GeographicalNames:3.0 http://inspire.ec.europa.eu/schemas/gn/3.0/GeographicalNames.xsd" gml:id="NL.KAD.BAG.Address.1731200000013412">
+    <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/">
+         urn:x-inspire:object:id:NL.KAD.BAG.AD.Address.1731200000013412
+    </gml:identifier>
+    <ad:inspireId>
+    <base:Identifier>
+      <base:localId>1731200000013412</base:localId>
+      <base:namespace>NL.KAD.BAG.AD.Address</base:namespace>
+      <base:versionId xsi:nil="true" nilReason="other:unpopulated"/>
+    </base:Identifier>
+    </ad:inspireId>
+  <ad:alternativeIdentifier xsi:nil="true" nilReason="other:unpopulated"/>
+  <ad:position>
+    <ad:GeographicPosition>
+      <ad:geometry>
+        <gml:Point srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2" gml:id="NL.KAD.BAG.AD.Address.1731200000013412_P">
+         <gml:pos>52.861360444755967 6.6075097909022489</gml:pos>
+       </gml:Point>
+      </ad:geometry>
+      <ad:specification>entrance</ad:specification>
+      <ad:method>byOtherParty</ad:method>
+      <ad:default>true</ad:default>
+    </ad:GeographicPosition>
+  </ad:position>
+  <ad:locator>
+    <ad:AddressLocator>
+      <ad:designator>
+        <ad:LocatorDesignator>
+          <ad:designator>5</ad:designator>
+          <ad:type>2</ad:type>
+        </ad:LocatorDesignator>
+      </ad:designator>
+      <ad:level>1</ad:level>
+    </ad:AddressLocator>
+  </ad:locator>
+  <ad:validFrom>2010-08-31T00:00:00</ad:validFrom>
+  <ad:validTo xsi:nil="true" nilReason="other:unpopulated"/>
+  <ad:beginLifespanVersion xsi:nil="true" nilReason="other:unpopulated"/>
+  <ad:endLifespanVersion xsi:nil="true" nilReason="other:unpopulated"/>
+  <ad:component xlink:href="#NL.KAD.BAG.AD.ThoroughfareName.1731300000000661"/>
+  <ad:component xlink:href="#NL.KAD.BAG.AD.AddressAreaName.3025"/>
+  <ad:component xlink:href="#NL.KAD.BAG.AD.PostalDescriptor.9431MB"/>
+</ad:Address>

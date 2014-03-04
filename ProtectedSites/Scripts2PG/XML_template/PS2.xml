@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:SpatialDataSet xmlns:tn-a="urn:x-inspire:specification:gmlas:AirTransportNetwork:3.0"
+                     xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0"
+                     xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0"
+                     xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                     xmlns:bgr="urn:x-inspire:specification:gmlas:BiogeographicalRegions:0.0"
+                     xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2"
+                     xmlns:gts="http://www.isotc211.org/2005/gts"
+                     xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2"
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     xmlns:gss="http://www.isotc211.org/2005/gss"
+                     xmlns:sd="urn:x-inspire:specification:gmlas:SpeciesDistribution:0.0"
+                     xmlns:bui="urn:x-inspire:specification:gmlas:Buildings:0.0"
+                     xmlns:gml="http://www.opengis.net/gml/3.2"
+                     xmlns:ps-f="urn:x-inspire:specification:gmlas:ProtectedSitesFull:3.0"
+                     xmlns:hb="urn:x-inspire:specification:gmlas:HabitatsAndBiotopes:0.0"
+                     xmlns:ps="urn:x-inspire:specification:gmlas:ProtectedSites:3.0"
+                     xmlns:gco="http://www.isotc211.org/2005/gco"
+                     xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                     gml:id="NL.PS.N2000">
+  <base:identifier>
+    <base:Identifier>
+      <base:localId>0</base:localId>
+      <base:namespace>NL.PS.N2000</base:namespace>
+    </base:Identifier>
+  </base:identifier>
+  <base:metadata xsi:nil="true"/>
+  <base:member>
+
+
+<ps-f:ProtectedSite xmlns:tn-a="urn:x-inspire:specification:gmlas:AirTransportNetwork:3.0" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:bgr="urn:x-inspire:specification:gmlas:BiogeographicalRegions:0.0" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:sd="urn:x-inspire:specification:gmlas:SpeciesDistribution:0.0" xmlns:bui="urn:x-inspire:specification:gmlas:Buildings:0.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ps-f="urn:x-inspire:specification:gmlas:ProtectedSitesFull:3.0" xmlns:hb="urn:x-inspire:specification:gmlas:HabitatsAndBiotopes:0.0" xmlns:ps="urn:x-inspire:specification:gmlas:ProtectedSites:3.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gsr="http://www.isotc211.org/2005/gsr" gml:id="">
+  <gml:identifier codeSpace=""></gml:identifier>
+  <gml:boundedBy nilReason=""></gml:boundedBy>
+  <ps:geometry nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+     <gml:MultiSurface gml:id="MultiSurface_" srsName="urn:ogc:def:crs:EPSG::4258">
+       <gml:surfaceMember>
+         <gml:Surface gml:id="Surface_" srsName="urn:ogc:def:crs:EPSG::4258">
+           <gml:patches>
+             <gml:PolygonPatch interpolation="planar">
+               <gml:exterior>
+                 <gml:LinearRing>
+                   <gml:posList srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2"></gml:posList>
+                 </gml:LinearRing>
+               </gml:exterior>
+               <gml:interior>
+                 <gml:LinearRing>
+                   <gml:posList srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2"></gml:posList>
+                 </gml:LinearRing>
+               </gml:interior>
+             </gml:PolygonPatch>
+           </gml:patches>
+         </gml:Surface>
+       </gml:surfaceMember>
+     </gml:MultiSurface>
+  </ps:geometry>
+  <ps:inspireID>
+    <base:Identifier>
+      <base:localId></base:localId>
+      <base:namespace></base:namespace>
+      <base:versionId nilReason=""></base:versionId>
+    </base:Identifier>
+  </ps:inspireID>
+  <ps:legalFoundationDate nilReason=""></ps:legalFoundationDate>
+  <ps:legalFoundationDocument nilReason="" owns="false"></ps:legalFoundationDocument>
+  <ps:siteDesignation nilReason="">
+    <ps:DesignationType>
+      <ps:designationScheme codeSpace=""></ps:designationScheme>
+      <ps:designation codeSpace=""></ps:designation>
+      <ps:percentageUnderDesignation></ps:percentageUnderDesignation>
+    </ps:DesignationType>
+  </ps:siteDesignation>
+  <ps:siteName nilReason="">
+    <gn:GeographicalName>
+      <gn:language nilReason=""></gn:language>
+      <gn:nativeness nilReason="" codeSpace=""></gn:nativeness>
+      <gn:nameStatus nilReason="" codeSpace=""></gn:nameStatus>
+      <gn:sourceOfName nilReason=""></gn:sourceOfName>
+      <gn:pronunciation nilReason="">
+        <gn:PronunciationOfName>
+          <gn:pronunciationSoundLink nilReason=""></gn:pronunciationSoundLink>
+          <gn:pronunciationIPA nilReason=""></gn:pronunciationIPA>
+        </gn:PronunciationOfName>
+      </gn:pronunciation>
+      <gn:spelling>
+        <gn:SpellingOfName>
+          <gn:text></gn:text>
+          <gn:script nilReason=""></gn:script>
+          <gn:transliterationScheme nilReason=""></gn:transliterationScheme>
+        </gn:SpellingOfName>
+      </gn:spelling>
+      <gn:grammaticalGender nilReason="" codeSpace=""></gn:grammaticalGender>
+      <gn:grammaticalNumber nilReason="" codeSpace=""></gn:grammaticalNumber>
+    </gn:GeographicalName>
+  </ps:siteName>
+  <ps:siteProtectionClassification nilReason=""></ps:siteProtectionClassification>
+  <ps-f:siteIdentifier nilReason="">
+    <ps-f:SiteIdentifierType>
+      <ps-f:siteIdentifier></ps-f:siteIdentifier>
+      <ps-f:siteIdentifierScheme codeSpace=""></ps-f:siteIdentifierScheme>
+    </ps-f:SiteIdentifierType>
+  </ps-f:siteIdentifier>
+  <ps-f:activitiesAndImpacts nilReason="">
+    <ps-f:ActivitiesAndImpactsType>
+      <ps-f:activityIntensity nilReason=""></ps-f:activityIntensity>
+      <ps-f:natureOfInfluence nilReason=""></ps-f:natureOfInfluence>
+      <ps-f:activity></ps-f:activity>
+      <ps-f:percentageUnderActivity nilReason=""></ps-f:percentageUnderActivity>
+    </ps-f:ActivitiesAndImpactsType>
+  </ps-f:activitiesAndImpacts>
+  <ps-f:spatialResolution nilReason="" owns="false">
+    <gmd:MD_Resolution></gmd:MD_Resolution>
+  </ps-f:spatialResolution>
+  <ps-f:siteDescription gco:nilReason="" uuidref="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+    <gmd:LocalisedCharacterString id="" locale=""></gmd:LocalisedCharacterString>
+  </ps-f:siteDescription>
+  <ps-f:qualityAndImportance gco:nilReason="" uuidref="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+    <gmd:LocalisedCharacterString id="" locale=""></gmd:LocalisedCharacterString>
+  </ps-f:qualityAndImportance>
+  <ps-f:vulnerability gco:nilReason="" uuidref="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+    <gmd:LocalisedCharacterString id="" locale=""></gmd:LocalisedCharacterString>
+  </ps-f:vulnerability>
+  <ps-f:ownership gco:nilReason="" uuidref="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+    <gmd:LocalisedCharacterString id="" locale=""></gmd:LocalisedCharacterString>
+  </ps-f:ownership>
+  <ps-f:documentation gco:nilReason="" uuidref="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+    <gmd:LocalisedCharacterString id="" locale=""></gmd:LocalisedCharacterString>
+  </ps-f:documentation>
+  <ps-f:legalExpiryDate nilReason=""></ps-f:legalExpiryDate>
+  <ps-f:beginLifespanVersion nilReason=""></ps-f:beginLifespanVersion>
+  <ps-f:endLifespanVersion nilReason=""></ps-f:endLifespanVersion>
+  <ps-f:dataSource nilReason=""></ps-f:dataSource>
+  <ps-f:officialsiteArea>  </ps-f:officialsiteArea>
+  <ps-f:siteLength nilReason="" uom=""></ps-f:siteLength>
+  <ps-f:fundingSource nilReason="">
+    <ps-f:FundingSourceType>
+      <ps-f:projectName gco:nilReason="" uuidref="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+        <gmd:LocalisedCharacterString id="" locale=""></gmd:LocalisedCharacterString>
+      </ps-f:projectName>
+      <ps-f:fundingType codeSpace=""></ps-f:fundingType>
+    </ps-f:FundingSourceType>
+  </ps-f:fundingSource>
+  <ps-f:siteManagementPlan nilReason="">  </ps-f:siteManagementPlan>
+  <ps-f:natura2000Respondent nilReason="" owns="false">
+    <gmd:CI_ResponsibleParty id="" uuid="">
+      <gmd:individualName gco:nilReason="">
+        <gco:CharacterString></gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName gco:nilReason="">
+        <gco:CharacterString></gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName gco:nilReason="">
+        <gco:CharacterString></gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo nilReason="" uuidref="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+        <gmd:CI_Contact id="" uuid="">
+          <gmd:phone nilReason="" uuidref="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+            <gmd:CI_Telephone id="" uuid="">
+              <gmd:voice gco:nilReason="">
+                <gco:CharacterString></gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile gco:nilReason="">
+                <gco:CharacterString></gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address nilReason="" uuidref="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+            <gmd:CI_Address id="" uuid="">
+              <gmd:deliveryPoint gco:nilReason="">
+                <gco:CharacterString></gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city gco:nilReason="">
+                <gco:CharacterString></gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea gco:nilReason="">
+                <gco:CharacterString></gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode gco:nilReason="">
+                <gco:CharacterString></gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country gco:nilReason="">
+                <gco:CharacterString></gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress gco:nilReason="">
+                <gco:CharacterString></gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource nilReason="" uuidref="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+            <gmd:CI_OnlineResource id="" uuid="">
+              <gmd:linkage nilReason="">
+                <gmd:URL></gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol gco:nilReason="">
+                <gco:CharacterString></gco:CharacterString>
+              </gmd:protocol>
+              <gmd:applicationProfile gco:nilReason="">
+                <gco:CharacterString></gco:CharacterString>
+              </gmd:applicationProfile>
+              <gmd:name gco:nilReason="">
+                <gco:CharacterString></gco:CharacterString>
+              </gmd:name>
+              <gmd:description gco:nilReason="">
+                <gco:CharacterString></gco:CharacterString>
+              </gmd:description>
+              <gmd:function nilReason="">
+                <gmd:CI_OnLineFunctionCode codeList="" codeListValue="" codeSpace=""></gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+          <gmd:hoursOfService gco:nilReason="">
+            <gco:CharacterString></gco:CharacterString>
+          </gmd:hoursOfService>
+          <gmd:contactInstructions gco:nilReason="">
+            <gco:CharacterString></gco:CharacterString>
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role nilReason="">
+        <gmd:CI_RoleCode codeList="" codeListValue="" codeSpace=""></gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </ps-f:natura2000Respondent>
+  <ps-f:protectedEntity nilReason="">
+    <ps-f:ProtectedEntityType>
+      <ps-f:globalAssessment nilReason=""></ps-f:globalAssessment>
+      <ps-f:percentageOfSiteCoveredByProtectedEntity nilReason=""></ps-f:percentageOfSiteCoveredByProtectedEntity>
+      <ps-f:percentageOfNationalTerritoryUnderProtectedEntity nilReason=""></ps-f:percentageOfNationalTerritoryUnderProtectedEntity>
+      <ps-f:isASpeciesDistribution owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+      <ps-f:isAHabitat owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+      <ps-f:isABuilding owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+    </ps-f:ProtectedEntityType>
+  </ps-f:protectedEntity>
+  <ps-f:presentHabitat nilReason="">
+    <ps-f:PresentHabitatType>
+      <ps-f:percentageUnderHabitat nilReason=""></ps-f:percentageUnderHabitat>
+      <ps-f:hasHabitat owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+    </ps-f:PresentHabitatType>
+  </ps-f:presentHabitat>
+  <ps-f:timePeriod owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+  </ps-f:timePeriod>
+  <ps-f:isASpeciesAggregationUnit owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <ps-f:isInRegion owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <ps-f:isManagedBy owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+</ps-f:ProtectedSite>
+

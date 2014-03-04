@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.rijkswaterstaat.nl/services/geoservices/metadata/web/template.xsl" type="text/xsl"?>
+<MD_Metadata xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/schemas/2005/gmd/gmd.xsd" xmlns="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<fileIdentifier>
+		<gco:CharacterString>aa1ccb2f-bb88-4b3a-8f5b-3a6136201c82</gco:CharacterString>
+	</fileIdentifier>
+	<language>
+		<gco:CharacterString>dut</gco:CharacterString>
+	</language>
+	<characterSet>
+		<MD_CharacterSetCode codeList="resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="dut">utf8</MD_CharacterSetCode>
+	</characterSet>
+	<parentIdentifier>
+		<gco:CharacterString/>
+	</parentIdentifier>
+	<hierarchyLevel>
+		<MD_ScopeCode codeList="file://Shr-ipvw-gpr001/metadatatools/Metadatamaker/config_bestanden/customCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="dut">dataset</MD_ScopeCode>
+	</hierarchyLevel>
+	<hierarchyLevelName>
+		<gco:CharacterString/>
+	</hierarchyLevelName>
+	<contact>
+		<CI_ResponsibleParty>
+			<individualName>
+				<gco:CharacterString>Servicedesk Data</gco:CharacterString>
+			</individualName>
+			<organisationName>
+				<gco:CharacterString>Rijkswaterstaat Data en ICT Dienst (DID)</gco:CharacterString>
+			</organisationName>
+			<positionName>
+				<gco:CharacterString>verstrekker</gco:CharacterString>
+			</positionName>
+			<contactInfo>
+				<CI_Contact>
+					<phone>
+						<CI_Telephone>
+							<voice>
+								<gco:CharacterString>(015) 2757700</gco:CharacterString>
+							</voice>
+							<facsimile>
+								<gco:CharacterString>(015) 2757576</gco:CharacterString>
+							</facsimile>
+						</CI_Telephone>
+					</phone>
+					<address>
+						<CI_Address>
+							<deliveryPoint>
+								<gco:CharacterString>Derde Werelddreef 1</gco:CharacterString>
+							</deliveryPoint>
+							<city>
+								<gco:CharacterString>Delft</gco:CharacterString>
+							</city>
+							<administrativeArea>
+								<gco:CharacterString>Zuid-Holland</gco:CharacterString>
+							</administrativeArea>
+							<postalCode>
+								<gco:CharacterString>2622 HA</gco:CharacterString>
+							</postalCode>
+							<country>
+								<gco:CharacterString>Nederland</gco:CharacterString>
+							</country>
+							<electronicMailAddress>
+								<gco:CharacterString>servicedesk-data@rws.nl</gco:CharacterString>
+							</electronicMailAddress>
+						</CI_Address>
+					</address>
+					<onlineResource>
+						<CI_OnlineResource>
+							<linkage>
+								<URL>http://www.rijkswaterstaat.nl</URL>
+							</linkage>
+						</CI_OnlineResource>
+					</onlineResource>
+				</CI_Contact>
+			</contactInfo>
+			<role>
+				<CI_RoleCode codeList="file://Agi-s000001/afdelingen/GSMS/Extern/Applicaties_en_Tools/Databeheer/Metadata/GeoMDE_22/resources/customCodelists_new.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="dut">contactpunt</CI_RoleCode>
+			</role>
+		</CI_ResponsibleParty>
+	</contact>
+	<dateStamp>
+		<gco:Date>2013</gco:Date>
+	</dateStamp>
+	<metadataStandardName>
+		<gco:CharacterString>ISO 19115</gco:CharacterString>
+	</metadataStandardName>
+	<metadataStandardVersion>
+		<gco:CharacterString>Nederlandse metadata profiel op ISO 19115 voor geografie 1.2</gco:CharacterString>
+	</metadataStandardVersion>
+	<referenceSystemInfo>
+		<MD_ReferenceSystem>
+			<referenceSystemIdentifier>
+				<RS_Identifier>
+					<code>
+						<gco:CharacterString>28992</gco:CharacterString>
+					</code>
+					<codeSpace>
+						<gco:CharacterString>EPSG</gco:CharacterString>
+					</codeSpace>
+				</RS_Identifier>
+			</referenceSystemIdentifier>
+		</MD_ReferenceSystem>
+	</referenceSystemInfo>
+	<referenceSystemInfo>
+		<MD_ReferenceSystem>
+			<referenceSystemIdentifier>
+				<RS_Identifier>
+					<code>
+						<gco:CharacterString>7415</gco:CharacterString>
+					</code>
+					<codeSpace>
+						<gco:CharacterString>EPSG</gco:CharacterString>
+					</codeSpace>
+				</RS_Identifier>
+			</referenceSystemIdentifier>
+		</MD_ReferenceSystem>
+	</referenceSystemInfo>
+	<identificationInfo>
+		<MD_DataIdentification>
+			<citation>
+				<CI_Citation>
+					<title>
+						<gco:CharacterString>Weggeg rijstroken</gco:CharacterString>
+					</title>
+					<alternateTitle>
+						<gco:CharacterString>Weggevens Rijkswaterstaat</gco:CharacterString>
+					</alternateTitle>
+					<date>
+						<CI_Date>
+							<date>
+								<gco:Date>2013</gco:Date>
+							</date>
+							<dateType>
+								<CI_DateTypeCode codeList="file://Agi-s000001/afdelingen/GSMS/Extern/Applicaties_en_Tools/Databeheer/Metadata/GeoMDE_22/resources/customCodelists_new.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="dut">publicatie</CI_DateTypeCode>
+							</dateType>
+						</CI_Date>
+					</date>
+					<edition>
+						<gco:CharacterString>januari 2013</gco:CharacterString>
+					</edition>
+					<identifier>
+						<MD_Identifier>
+							<code>
+								<gco:CharacterString>7d9973b4-4aef-4b18-913b-274028e93023</gco:CharacterString>
+							</code>
+						</MD_Identifier>
+					</identifier>
+					<series>
+						<CI_Series>
+							<name>
+								<gco:CharacterString/>
+							</name>
+						</CI_Series>
+					</series>
+				</CI_Citation>
+			</citation>
+			<abstract>
+				<gco:CharacterString>Weggegevens van Rijkswegen onderverdeeld in 3 soorten te weten: referentie t.b.v
+wegkenmerken: weggegr-wgg0112-r-0; wegkenmerken met
+geometrie op wegvakniveau: weggegw-wgg0112-w-0; wegkenmerken met
+geometrie op kenmerkniveau: weggegk-wgg0112-k-0.</gco:CharacterString>
+			</abstract>
+			<purpose>
+				<gco:CharacterString>Ruimtelijke analyses waarbij ligging van infrastructuur van belang is en bereikbaarheidsberekeningen</gco:CharacterString>
+			</purpose>
+			<status>
+				<MD_ProgressCode codeList="file://Shr-ipvw-gpr001/metadatatools/Metadatamaker/config_bestanden/customCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="dut">compleet</MD_ProgressCode>
+			</status>
+			<pointOfContact>
+				<CI_ResponsibleParty>
+					<individualName>
+						<gco:CharacterString/>
+					</individualName>
+					<organisationName>
+						<gco:CharacterString>Rijkswaterstaat Data en ICT Dienst (DID)</gco:CharacterString>
+					</organisationName>
+					<positionName>
+						<gco:CharacterString/>
+					</positionName>
+					<contactInfo>
+						<CI_Contact>
+							<phone>
+								<CI_Telephone>
+									<voice>
+										<gco:CharacterString/>
+									</voice>
+									<facsimile>
+										<gco:CharacterString/>
+									</facsimile>
+								</CI_Telephone>
+							</phone>
+							<address>
+								<CI_Address>
+									<deliveryPoint>
+										<gco:CharacterString/>
+									</deliveryPoint>
+									<city>
+										<gco:CharacterString/>
+									</city>
+									<administrativeArea>
+										<gco:CharacterString/>
+									</administrativeArea>
+									<postalCode>
+										<gco:CharacterString/>
+									</postalCode>
+									<country>
+										<gco:CharacterString/>
+									</country>
+									<electronicMailAddress>
+										<gco:CharacterString>servicedesk-data@rws.nl</gco:CharacterString>
+									</electronicMailAddress>
+								</CI_Address>
+							</address>
+							<onlineResource>
+								<CI_OnlineResource>
+									<linkage>
+										<URL>http://www.rijkswaterstaat.nl</URL>
+									</linkage>
+								</CI_OnlineResource>
+							</onlineResource>
+						</CI_Contact>
+					</contactInfo>
+					<role>
+						<CI_RoleCode codeList="file://Agi-s000001/afdelingen/GSMS/Extern/Applicaties_en_Tools/Databeheer/Metadata/GeoMDE_22/resources/customCodelists_new.xml#CI_RoleCode" codeListValue="owner" codeSpace="dut">eigenaar</CI_RoleCode>
+					</role>
+				</CI_ResponsibleParty>
+			</pointOfContact>
+			<pointOfContact>
+				<CI_ResponsibleParty>
+					<individualName>
+						<gco:CharacterString/>
+					</individualName>
+					<organisationName>
+						<gco:CharacterString>Rijkswaterstaat Data en ICT Dienst (DID)</gco:CharacterString>
+					</organisationName>
+					<positionName>
+						<gco:CharacterString/>
+					</positionName>
+					<contactInfo>
+						<CI_Contact>
+							<phone>
+								<CI_Telephone>
+									<voice>
+										<gco:CharacterString/>
+									</voice>
+									<facsimile>
+										<gco:CharacterString/>
+									</facsimile>
+								</CI_Telephone>
+							</phone>
+							<address>
+								<CI_Address>
+									<deliveryPoint>
+										<gco:CharacterString/>
+									</deliveryPoint>
+									<city>
+										<gco:CharacterString/>
+									</city>
+									<administrativeArea>
+										<gco:CharacterString/>
+									</administrativeArea>
+									<postalCode>
+										<gco:CharacterString/>
+									</postalCode>
+									<country>
+										<gco:CharacterString/>
+									</country>
+									<electronicMailAddress>
+										<gco:CharacterString>servicedesk-data@rws.nl</gco:CharacterString>
+									</electronicMailAddress>
+								</CI_Address>
+							</address>
+							<onlineResource>
+								<CI_OnlineResource>
+									<linkage>
+										<URL>http://www.rijkswaterstaat.nl</URL>
+									</linkage>
+								</CI_OnlineResource>
+							</onlineResource>
+						</CI_Contact>
+					</contactInfo>
+					<role>
+						<CI_RoleCode codeList="file://Agi-s000001/afdelingen/GSMS/Extern/Applicaties_en_Tools/Databeheer/Metadata/GeoMDE_22/resources/customCodelists_new.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="dut">contactpunt</CI_RoleCode>
+					</role>
+				</CI_ResponsibleParty>
+			</pointOfContact>
+			<resourceMaintenance>
+				<MD_MaintenanceInformation>
+					<maintenanceAndUpdateFrequency>
+						<MD_MaintenanceFrequencyCode codeList="file://Shr-ipvw-gpr001/metadatatools/Metadatamaker/config_bestanden/customCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="monthly" codeSpace="dut">maandelijks</MD_MaintenanceFrequencyCode>
+					</maintenanceAndUpdateFrequency>
+					<dateOfNextUpdate>
+						<gco:Date>2013-02-15</gco:Date>
+					</dateOfNextUpdate>
+				</MD_MaintenanceInformation>
+			</resourceMaintenance>
+			<graphicOverview>
+				<MD_BrowseGraphic>
+					<fileName>
+						<gco:CharacterString>nwb.bmp</gco:CharacterString>
+					</fileName>
+				</MD_BrowseGraphic>
+			</graphicOverview>
+			<descriptiveKeywords>
+				<MD_Keywords>
+					<keyword>
+						<gco:CharacterString>Infrastructuur</gco:CharacterString>
+					</keyword>
+					<keyword>
+						<gco:CharacterString>Verkeersgegevens</gco:CharacterString>
+					</keyword>
+					<keyword>
+						<gco:CharacterString>Wegen</gco:CharacterString>
+					</keyword>
+				</MD_Keywords>
+			</descriptiveKeywords>
+			<resourceSpecificUsage/>
+			<resourceConstraints>
+				<MD_Constraints>
+					<useLimitation>
+						<gco:CharacterString>Geen gebruiksbeperkingen</gco:CharacterString>
+					</useLimitation>
+				</MD_Constraints>
+			</resourceConstraints>
+			<resourceConstraints>
+				<MD_LegalConstraints>
+					<accessConstraints>
+						<MD_RestrictionCode codeList="file://Agi-s000001/afdelingen/GSMS/Extern/Applicaties_en_Tools/Databeheer/Metadata/GeoMDE_22/resources/customCodelists_new.xml#MD_RestrictionCode" codeListValue="copyright" codeSpace="dut">copyright</MD_RestrictionCode>
+					</accessConstraints>
+				</MD_LegalConstraints>
+			</resourceConstraints>
+			<resourceConstraints>
+				<MD_SecurityConstraints>
+					<classification>
+						<MD_ClassificationCode codeList="http://www.rijkswaterstaat.nl/apps/geoservices/help/metadata/customCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" codeSpace="dut">vrij toegankelijk</MD_ClassificationCode>
+					</classification>
+					<userNote>
+						<gco:CharacterString/>
+					</userNote>
+				</MD_SecurityConstraints>
+			</resourceConstraints>
+			<spatialRepresentationType>
+				<MD_SpatialRepresentationTypeCode codeList="file://Agi-s000001/afdelingen/GSMS/Extern/Applicaties_en_Tools/Databeheer/Metadata/GeoMDE_22/resources/customCodelists_new.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="dut">vector</MD_SpatialRepresentationTypeCode>
+			</spatialRepresentationType>
+			<spatialResolution>
+				<MD_Resolution>
+					<equivalentScale>
+						<MD_RepresentativeFraction>
+							<denominator>
+								<gco:Integer>10000</gco:Integer>
+							</denominator>
+						</MD_RepresentativeFraction>
+					</equivalentScale>
+				</MD_Resolution>
+			</spatialResolution>
+			<language>
+				<gco:CharacterString>dut</gco:CharacterString>
+			</language>
+			<characterSet>
+				<MD_CharacterSetCode codeList="resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="dut">utf8</MD_CharacterSetCode>
+			</characterSet>
+			<topicCategory>
+				<MD_TopicCategoryCode>transportation</MD_TopicCategoryCode>
+			</topicCategory>
+			<extent>
+				<EX_Extent>
+					<description>
+						<gco:CharacterString>Dataset wordt maandelijks vernieuwd.</gco:CharacterString>
+					</description>
+					<geographicElement>
+						<EX_GeographicBoundingBox>
+							<westBoundLongitude>
+								<gco:Decimal>3.47</gco:Decimal>
+							</westBoundLongitude>
+							<eastBoundLongitude>
+								<gco:Decimal>7.237</gco:Decimal>
+							</eastBoundLongitude>
+							<southBoundLatitude>
+								<gco:Decimal>50.742</gco:Decimal>
+							</southBoundLatitude>
+							<northBoundLatitude>
+								<gco:Decimal>53.4</gco:Decimal>
+							</northBoundLatitude>
+						</EX_GeographicBoundingBox>
+					</geographicElement>
+					<geographicElement>
+						<EX_GeographicDescription>
+							<geographicIdentifier>
+								<MD_Identifier>
+									<code>
+										<gco:CharacterString>Nederland</gco:CharacterString>
+									</code>
+								</MD_Identifier>
+							</geographicIdentifier>
+						</EX_GeographicDescription>
+					</geographicElement>
+					<temporalElement>
+						<EX_TemporalExtent>
+							<extent>
+								<gml:TimePeriod gml:id="temporal-extent-1">
+									<gml:beginPosition>2013</gml:beginPosition>
+									<gml:endPosition>2013</gml:endPosition>
+								</gml:TimePeriod>
+							</extent>
+						</EX_TemporalExtent>
+					</temporalElement>
+					<verticalElement>
+						<EX_VerticalExtent>
+							<minimumValue>
+								<gco:Real>0.0</gco:Real>
+							</minimumValue>
+							<maximumValue>
+								<gco:Real>0.0</gco:Real>
+							</maximumValue>
+							<verticalCRS/>
+						</EX_VerticalExtent>
+					</verticalElement>
+				</EX_Extent>
+			</extent>
+			<supplementalInformation>
+				<gco:CharacterString/>
+			</supplementalInformation>
+		</MD_DataIdentification>
+	</identificationInfo>
+	<contentInfo/>
+	<distributionInfo>
+		<MD_Distribution>
+			<distributionFormat>
+				<MD_Format>
+					<name>
+						<gco:CharacterString/>
+					</name>
+					<version>
+						<gco:CharacterString/>
+					</version>
+				</MD_Format>
+			</distributionFormat>
+			<distributor>
+				<MD_Distributor>
+					<distributorContact>
+						<CI_ResponsibleParty>
+							<individualName>
+								<gco:CharacterString/>
+							</individualName>
+							<organisationName>
+								<gco:CharacterString>Rijkswaterstaat Data en ICT Dienst (DID)</gco:CharacterString>
+							</organisationName>
+							<positionName>
+								<gco:CharacterString/>
+							</positionName>
+							<contactInfo>
+								<CI_Contact>
+									<phone>
+										<CI_Telephone>
+											<voice>
+												<gco:CharacterString/>
+											</voice>
+											<facsimile>
+												<gco:CharacterString/>
+											</facsimile>
+										</CI_Telephone>
+									</phone>
+									<address>
+										<CI_Address>
+											<deliveryPoint>
+												<gco:CharacterString/>
+											</deliveryPoint>
+											<city>
+												<gco:CharacterString/>
+											</city>
+											<administrativeArea>
+												<gco:CharacterString/>
+											</administrativeArea>
+											<postalCode>
+												<gco:CharacterString/>
+											</postalCode>
+											<country>
+												<gco:CharacterString/>
+											</country>
+											<electronicMailAddress>
+												<gco:CharacterString>servicedesk-data@rws.nl</gco:CharacterString>
+											</electronicMailAddress>
+										</CI_Address>
+									</address>
+									<onlineResource>
+										<CI_OnlineResource>
+											<linkage>
+												<URL>http://www.rijkswaterstaat.nl</URL>
+											</linkage>
+										</CI_OnlineResource>
+									</onlineResource>
+								</CI_Contact>
+							</contactInfo>
+							<role>
+								<CI_RoleCode codeList="file://Agi-s000001/afdelingen/GSMS/Extern/Applicaties_en_Tools/Databeheer/Metadata/GeoMDE_22/resources/customCodelists_new.xml#CI_RoleCode" codeListValue="distributor" codeSpace="dut">distributeur</CI_RoleCode>
+							</role>
+						</CI_ResponsibleParty>
+					</distributorContact>
+					<distributionOrderProcess>
+						<MD_StandardOrderProcess>
+							<fees>
+								<gco:CharacterString/>
+							</fees>
+							<orderingInstructions>
+								<gco:CharacterString/>
+							</orderingInstructions>
+							<turnaround>
+								<gco:CharacterString/>
+							</turnaround>
+						</MD_StandardOrderProcess>
+					</distributionOrderProcess>
+				</MD_Distributor>
+			</distributor>
+			<transferOptions>
+				<MD_DigitalTransferOptions>
+					<unitsOfDistribution>
+						<gco:CharacterString>Nederland</gco:CharacterString>
+					</unitsOfDistribution>
+					<onLine>
+						<CI_OnlineResource>
+							<linkage>
+								<URL>http://intranet.rijkswaterstaat.nl/services/geoservices/weggeg?</URL>
+							</linkage>
+							<protocol>
+								<gco:CharacterString>OGC:WMS</gco:CharacterString>
+							</protocol>
+							<name>
+								<gco:CharacterString>AAA88</gco:CharacterString>
+							</name>
+						</CI_OnlineResource>
+					</onLine>
+					<offLine>
+						<MD_Medium>
+							<name/>
+						</MD_Medium>
+					</offLine>
+				</MD_DigitalTransferOptions>
+			</transferOptions>
+		</MD_Distribution>
+	</distributionInfo>
+	<dataQualityInfo>
+		<DQ_DataQuality>
+			<scope>
+				<DQ_Scope>
+					<level>
+						<MD_ScopeCode codeList="resources/codeList.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="dut">dataset</MD_ScopeCode>
+					</level>
+				</DQ_Scope>
+			</scope>
+			<report>
+				<DQ_CompletenessOmission>
+					<result>
+						<DQ_QuantitativeResult>
+							<valueUnit>
+								<gml:UnitDefinition gml:id="id-95">
+									<gml:description/>
+									<gml:identifier codeSpace=""/>
+								</gml:UnitDefinition>
+							</valueUnit>
+							<value xlink:type="simple">
+								<gco:Record xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+							</value>
+						</DQ_QuantitativeResult>
+					</result>
+				</DQ_CompletenessOmission>
+			</report>
+			<report>
+				<DQ_AbsoluteExternalPositionalAccuracy>
+					<result>
+						<DQ_QuantitativeResult>
+							<valueUnit>
+								<gml:UnitDefinition gml:id="id-96">
+									<gml:description/>
+									<gml:identifier codeSpace=""/>
+								</gml:UnitDefinition>
+							</valueUnit>
+							<value xlink:type="simple">
+								<gco:Record xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+							</value>
+						</DQ_QuantitativeResult>
+					</result>
+				</DQ_AbsoluteExternalPositionalAccuracy>
+			</report>
+			<report>
+				<DQ_DomainConsistency>
+					<result>
+						<DQ_ConformanceResult>
+							<specification/>
+							<explanation>
+								<gco:CharacterString/>
+							</explanation>
+							<pass>
+								<gco:Boolean>false</gco:Boolean>
+							</pass>
+						</DQ_ConformanceResult>
+					</result>
+				</DQ_DomainConsistency>
+			</report>
+			<lineage>
+				<LI_Lineage>
+					<statement>
+						<gco:CharacterString>Dataset wordt vervaardigd en onderhouden door Rijkswaterstaat Data en ICT Dienst.</gco:CharacterString>
+					</statement>
+					<source>
+						<LI_Source>
+							<sourceStep>
+								<LI_ProcessStep>
+									<description>
+										<gco:CharacterString>GIS-bewerkingen</gco:CharacterString>
+									</description>
+									<processor>
+										<CI_ResponsibleParty>
+											<individualName>
+												<gco:CharacterString/>
+											</individualName>
+											<organisationName>
+												<gco:CharacterString>Rijkswaterstaat Data en ICT Dienst (DID)</gco:CharacterString>
+											</organisationName>
+											<positionName>
+												<gco:CharacterString/>
+											</positionName>
+											<contactInfo>
+												<CI_Contact>
+													<phone>
+														<CI_Telephone>
+															<voice>
+																<gco:CharacterString/>
+															</voice>
+															<facsimile>
+																<gco:CharacterString/>
+															</facsimile>
+														</CI_Telephone>
+													</phone>
+													<address>
+														<CI_Address>
+															<deliveryPoint>
+																<gco:CharacterString/>
+															</deliveryPoint>
+															<city>
+																<gco:CharacterString/>
+															</city>
+															<administrativeArea>
+																<gco:CharacterString/>
+															</administrativeArea>
+															<postalCode>
+																<gco:CharacterString/>
+															</postalCode>
+															<country>
+																<gco:CharacterString/>
+															</country>
+															<electronicMailAddress>
+																<gco:CharacterString>servicedesk-data@rws.nl</gco:CharacterString>
+															</electronicMailAddress>
+														</CI_Address>
+													</address>
+													<onlineResource>
+														<CI_OnlineResource>
+															<linkage>
+																<URL>http://www.rijkswaterstaat.nl</URL>
+															</linkage>
+														</CI_OnlineResource>
+													</onlineResource>
+												</CI_Contact>
+											</contactInfo>
+											<role>
+												<CI_RoleCode codeList="resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="dut">inwinner</CI_RoleCode>
+											</role>
+										</CI_ResponsibleParty>
+									</processor>
+								</LI_ProcessStep>
+							</sourceStep>
+						</LI_Source>
+					</source>
+				</LI_Lineage>
+			</lineage>
+		</DQ_DataQuality>
+	</dataQualityInfo>
+	<Esri xmlns="">
+		<CreaDate>20130208</CreaDate>
+		<CreaTime>09293000</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20130208</SyncDate>
+		<SyncTime>09560800</SyncTime>
+		<ModDate>20130208</ModDate>
+		<ModTime>09560800</ModTime>
+		<DataProperties>
+			<lineage>
+				<Process Name="Copy Features" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20130107" Time="103024">CopyFeatures \\Agi-s000001\afdelingen\DSDS\Intern\ArcCatalog_Connection_files\RWS_LEZEN\PGPR_RWS_LEZEN@geodatabase.ad.rws.nl.sde\WEGEN.WEGGEG_WEGVAK\WEGEN.rijstroken_wegvak "\\did-s000012\geopakhuis\uitlever\Updatefolder geodata01\Geodata\weggeg\geogegevens\shapefile\weggeg_wegvakniveau\rijstroken.shp" # 0 0 0</Process>
+				<Process Name="Copy Features" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20130208" Time="095612">CopyFeatures \\Agi-s000001\afdelingen\DSDS\Intern\ArcCatalog_Connection_files\RWS_LEZEN\PGPR_RWS_LEZEN@geodatabase.ad.rws.nl.sde\WEGEN.WEGGEG_WEGVAK\WEGEN.rijstroken_wegvak "\\did-s000012\geopakhuis\uitlever\Updatefolder geodata01\Geodata\weggeg\geogegevens\shapefile\weggeg_wegvakniveau\rijstroken.shp" # 0 0 0</Process></lineage>
+		</DataProperties>
+		<MetaID>{A110936C-8A07-4B2A-9344-B312D1BC3360}</MetaID></Esri>
+	<dataqual xmlns="">
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">N:\Applicdata\Produktie\BNP\Output productie en beheer tbv Corina en Mario\Geodatabase\Metadata\metadata_feature_data_classes\WEGGEG - n\rijstroken.xml</srcused>
+				<procdate Sync="TRUE">20121030</procdate>
+				<proctime Sync="TRUE">10110700</proctime>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">Server=shr-itvl-ora002.ad.rws.nl; Service=5151; User=TGPR_wegen_DID; Version=SDE.DEFAULT</srcused>
+				<procdate Sync="TRUE">20121122</procdate>
+				<proctime Sync="TRUE">09302500</proctime>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">Server=shr-itvl-ora002.ad.rws.nl; Service=5151; User=TGPR_wegen_DID; Version=SDE.DEFAULT</srcused>
+				<procdate Sync="TRUE">20121123</procdate>
+				<proctime Sync="TRUE">10132600</proctime>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">C:\Documents and Settings\horstg01.AD\Desktop\rijstroken.xml</srcused>
+				<procdate Sync="TRUE">20121128</procdate>
+				<proctime Sync="TRUE">10034200</proctime>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">C:\Documents and Settings\horstg01.AD\Desktop\wegvakniveau\rijstroken.xml</srcused>
+				<procdate Sync="TRUE">20130111</procdate>
+				<proctime Sync="TRUE">10484000</proctime>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\Documents and Settings\horstg01.AD\Desktop\wegvakniveau\rijstroken.xml</srcused><procdate Sync="TRUE">20130204</procdate><proctime Sync="TRUE">13235400</proctime></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\Documents and Settings\horstg01.AD\Desktop\rijstroken_wegvak.xml</srcused><procdate Sync="TRUE">20130208</procdate><proctime Sync="TRUE">09293000</proctime></procstep></lineage>
+	</dataqual>
+	<idinfo xmlns="">
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</native>
+		<descript>
+			<langdata Sync="TRUE">nl</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">rijstroken</title>
+				<ftname Sync="TRUE">rijstroken</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">\\did-s000012\geopakhuis\uitlever\Updatefolder geodata01\Geodata\weggeg\geogegevens\shapefile\weggeg_wegvakniveau\rijstroken.shp</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">3.459963</westbc>
+				<eastbc Sync="TRUE">7.238769</eastbc>
+				<northbc Sync="TRUE">53.443650</northbc>
+				<southbc Sync="TRUE">50.742030</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">26887.935947</leftbc>
+				<rightbc Sync="TRUE">278022.270002</rightbc>
+				<bottombc Sync="TRUE">307280.152054</bottombc>
+				<topbc Sync="TRUE">606251.393943</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Shapefile</natvform>
+	</idinfo>
+	<dataIdInfo xmlns="">
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="nl"/>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">rijstroken</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"/>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"/>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">26887.935947</westBL>
+					<eastBL Sync="TRUE">278022.270002</eastBL>
+					<northBL Sync="TRUE">606251.393943</northBL>
+					<southBL Sync="TRUE">307280.152054</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">3.459963</westBL>
+			<eastBL Sync="TRUE">7.238769</eastBL>
+			<northBL Sync="TRUE">53.44365</northBL>
+			<southBL Sync="TRUE">50.74203</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+	</dataIdInfo>
+	<metainfo xmlns="">
+		<langmeta Sync="TRUE">nl</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20130208</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang xmlns="">
+		<languageCode Sync="TRUE" value="nl"/>
+	</mdLang>
+	<mdStanName Sync="TRUE" xmlns="">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE" xmlns="">DIS_ESRI1.0</mdStanVer>
+	<mdChar xmlns="">
+		<CharSetCd Sync="TRUE" value="004"/>
+	</mdChar>
+	<mdHrLv xmlns="">
+		<ScopeCd Sync="TRUE" value="005"/>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE" xmlns="">dataset</mdHrLvName>
+	<distinfo xmlns="">
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">0,000</transize>
+					<dssize Sync="TRUE">0,000</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<distInfo xmlns="">
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<linkage Sync="TRUE">file://\\did-s000012\geopakhuis\uitlever\Updatefolder geodata01\Geodata\weggeg\geogegevens\shapefile\weggeg_wegvakniveau\rijstroken.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+				<transSize Sync="TRUE">0,000</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">Shapefile</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<spdoinfo xmlns="">
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="rijstroken">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polyline</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">0</efeacnt>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="rijstroken">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref xmlns="">
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_Amersfoort</geogcsn>
+				<projcsn Sync="TRUE">RD_New</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Double Stereographic</mapprojn><mapprojp><longpc Sync="TRUE">5.387639</longpc><latprjc Sync="TRUE">52.156161</latprjc><sfprjorg Sync="TRUE">0.999908</sfprjorg><feast Sync="TRUE">155000.000000</feast><fnorth Sync="TRUE">463000.000000</fnorth></mapprojp></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_Amersfoort</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo xmlns="">
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE">RD_New</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo xmlns="">
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001"/>
+			</topLvl>
+			<geometObjs Name="rijstroken"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo xmlns="">
+		<detailed Name="rijstroken">
+			<enttyp>
+				<enttypl Sync="TRUE">rijstroken</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl Sync="TRUE">OMSCHR</attrlabl>
+				<attalias Sync="TRUE">OMSCHR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">VOLGNRSTRK</attrlabl>
+				<attalias Sync="TRUE">VOLGNRSTRK</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">KANTCODE</attrlabl>
+				<attalias Sync="TRUE">KANTCODE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">WVK_ID</attrlabl>
+				<attalias Sync="TRUE">WVK_ID</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">WVK_BEGDAT</attrlabl>
+				<attalias Sync="TRUE">WVK_BEGDAT</attalias>
+				<attrtype Sync="TRUE">Date</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BEGAFSTAND</attrlabl>
+				<attalias Sync="TRUE">BEGAFSTAND</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ENDAFSTAND</attrlabl>
+				<attalias Sync="TRUE">ENDAFSTAND</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FK_VELD1</attrlabl>
+				<attalias Sync="TRUE">FK_VELD1</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FK_VELD4</attrlabl>
+				<attalias Sync="TRUE">FK_VELD4</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">13</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">IZI_SIDE</attrlabl>
+				<attalias Sync="TRUE">IZI_SIDE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr><attrlabl Sync="TRUE">SHAPE_LEN</attrlabl><attalias Sync="TRUE">SHAPE_LEN</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE" xmlns="">20130208</mdDateSt>
+	<dataset_description xmlns="">
+		<administrative_metadata>
+			<distribution>
+				<on_line_access>
+					<url>\\did-s000012\geopakhuis\uitlever\Updatefolder geodata01\Geodata\weggeg\geogegevens\shapefile\weggeg_wegvakniveau\rijstroken.shp</url>
+				</on_line_access>
+			</distribution>
+		</administrative_metadata>
+		<identification>
+			<alternative_title>WEGEN.rijstroken_wegvak_1211</alternative_title>
+		</identification>
+		<data_definition>
+			<application_schema_description>
+				<is_identified_by>Shapefile</is_identified_by>
+			</application_schema_description>
+			<object_type>
+				<object_type_name>rijstroken</object_type_name>
+				<object_type_definition></object_type_definition>
+				<attribute_type><attribute_type_name>FID</attribute_type_name><ESRI_NL><attribute_type_alias>FID</attribute_type_alias><attribute_type_type>Object ID</attribute_type_type><attribute_type_width>4</attribute_type_width><attribute_type_precision>0</attribute_type_precision></ESRI_NL></attribute_type><attribute_type><attribute_type_name>Shape</attribute_type_name><ESRI_NL><attribute_type_alias>Shape</attribute_type_alias><attribute_type_type>Geometry</attribute_type_type><attribute_type_width>0</attribute_type_width><attribute_type_precision>0</attribute_type_precision></ESRI_NL></attribute_type><attribute_type><attribute_type_name>OMSCHR</attribute_type_name><attribute_type_definition></attribute_type_definition><ESRI_NL><attribute_type_alias>OMSCHR</attribute_type_alias><attribute_type_type>String</attribute_type_type><attribute_type_width>40</attribute_type_width><attribute_type_precision>0</attribute_type_precision></ESRI_NL></attribute_type><attribute_type><attribute_type_name>VOLGNRSTRK</attribute_type_name><attribute_type_definition></attribute_type_definition><ESRI_NL><attribute_type_alias>VOLGNRSTRK</attribute_type_alias><attribute_type_type>String</attribute_type_type><attribute_type_width>3</attribute_type_width><attribute_type_precision>0</attribute_type_precision></ESRI_NL></attribute_type><attribute_type><attribute_type_name>KANTCODE</attribute_type_name><attribute_type_definition></attribute_type_definition><ESRI_NL><attribute_type_alias>KANTCODE</attribute_type_alias><attribute_type_type>String</attribute_type_type><attribute_type_width>1</attribute_type_width><attribute_type_precision>0</attribute_type_precision></ESRI_NL></attribute_type><attribute_type><attribute_type_name>WVK_ID</attribute_type_name><attribute_type_definition></attribute_type_definition><ESRI_NL><attribute_type_alias>WVK_ID</attribute_type_alias><attribute_type_type>Double</attribute_type_type><attribute_type_width>10</attribute_type_width><attribute_type_precision>10</attribute_type_precision><attribute_type_scale>0</attribute_type_scale></ESRI_NL></attribute_type><attribute_type><attribute_type_name>WVK_BEGDAT</attribute_type_name><attribute_type_definition></attribute_type_definition><ESRI_NL><attribute_type_alias>WVK_BEGDAT</attribute_type_alias><attribute_type_type>Date</attribute_type_type><attribute_type_width>8</attribute_type_width><attribute_type_precision>0</attribute_type_precision></ESRI_NL></attribute_type><attribute_type><attribute_type_name>BEGAFSTAND</attribute_type_name><attribute_type_definition></attribute_type_definition><ESRI_NL><attribute_type_alias>BEGAFSTAND</attribute_type_alias><attribute_type_type>Long Integer</attribute_type_type><attribute_type_width>8</attribute_type_width><attribute_type_precision>8</attribute_type_precision></ESRI_NL></attribute_type><attribute_type><attribute_type_name>ENDAFSTAND</attribute_type_name><attribute_type_definition></attribute_type_definition><ESRI_NL><attribute_type_alias>ENDAFSTAND</attribute_type_alias><attribute_type_type>Long Integer</attribute_type_type><attribute_type_width>8</attribute_type_width><attribute_type_precision>8</attribute_type_precision></ESRI_NL></attribute_type><attribute_type><attribute_type_name>FK_VELD1</attribute_type_name><attribute_type_definition></attribute_type_definition><ESRI_NL><attribute_type_alias>FK_VELD1</attribute_type_alias><attribute_type_type>String</attribute_type_type><attribute_type_width>20</attribute_type_width><attribute_type_precision>0</attribute_type_precision></ESRI_NL></attribute_type><attribute_type><attribute_type_name>FK_VELD4</attribute_type_name><attribute_type_definition></attribute_type_definition><ESRI_NL><attribute_type_alias>FK_VELD4</attribute_type_alias><attribute_type_type>String</attribute_type_type><attribute_type_width>13</attribute_type_width><attribute_type_precision>0</attribute_type_precision></ESRI_NL></attribute_type><attribute_type><attribute_type_name>IZI_SIDE</attribute_type_name><attribute_type_definition></attribute_type_definition><ESRI_NL><attribute_type_alias>IZI_SIDE</attribute_type_alias><attribute_type_type>String</attribute_type_type><attribute_type_width>1</attribute_type_width><attribute_type_precision>0</attribute_type_precision></ESRI_NL></attribute_type><attribute_type><attribute_type_name>SHAPE_LEN</attribute_type_name><ESRI_NL><attribute_type_alias>SHAPE_LEN</attribute_type_alias><attribute_type_type>Double</attribute_type_type><attribute_type_width>19</attribute_type_width><attribute_type_precision>0</attribute_type_precision><attribute_type_scale>0</attribute_type_scale></ESRI_NL></attribute_type></object_type>
+		</data_definition>
+		<planar_extent>
+			<bounding_quadrangle>
+				<min_horizontal>
+					<position>
+						<x>26887,936</x>
+						<y>307280,152</y>
+						<ESRI_NL>
+							<DD_x>3,460</DD_x>
+							<DD_y>50,742</DD_y>
+						</ESRI_NL>
+					</position>
+				</min_horizontal>
+				<max_horizontal>
+					<position>
+						<x>278022,270</x>
+						<y>606251,394</y>
+						<ESRI_NL>
+							<DD_x>7,239</DD_x>
+							<DD_y>53,444</DD_y>
+						</ESRI_NL>
+					</position>
+				</max_horizontal>
+			</bounding_quadrangle>
+		</planar_extent>
+		<vertical_extent>
+			<minimum_height_value>0.000</minimum_height_value>
+			<maximum_height_value>0.000</maximum_height_value>
+		</vertical_extent>
+		<spatial_reference_system>
+			<direct_positioning_system>
+				<identifier>RD_New</identifier>
+				<geodetic_datum_name>D_Amersfoort</geodetic_datum_name>
+				<map_projection_name>Double_Stereographic</map_projection_name>
+				<geodetic_ellipsoid_name>Bessel_1841</geodetic_ellipsoid_name>
+			</direct_positioning_system>
+		</spatial_reference_system>
+		<metadata_reference>
+			<entry_date>28-11-2012</entry_date>
+		</metadata_reference>
+	</dataset_description>
+	<ESRI_NL xmlns="">
+		<overzicht>
+			<set2D3D>2D</set2D3D>
+		</overzicht>
+	</ESRI_NL>
+</MD_Metadata>

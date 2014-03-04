@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tn-ro:Road xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:tn-ro="urn:x-inspire:specification:gmlas:RoadTransportNetwork:3.0" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" gml:id="">
+  <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+    <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+  </gml:metaDataProperty>
+  <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+  <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <gml:identifier codeSpace=""></gml:identifier>
+  <gml:name codeSpace=""></gml:name>
+  <gml:boundedBy nilReason=""></gml:boundedBy>
+  <gml:location nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:location>
+  <net:beginLifespanVersion nilReason=""></net:beginLifespanVersion>
+  <net:inspireId>
+    <base:Identifier>
+      <base:localId></base:localId>
+      <base:namespace></base:namespace>
+      <base:versionId nilReason=""></base:versionId>
+    </base:Identifier>
+  </net:inspireId>
+  <net:endLifespanVersion nilReason=""></net:endLifespanVersion>
+  <net:inNetwork owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <net:link nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false"/>
+  <tn:geographicalName nilReason="">
+    <gn:GeographicalName>
+      <gn:language nilReason=""></gn:language>
+      <gn:nativeness nilReason="" codeSpace=""></gn:nativeness>
+      <gn:nameStatus nilReason="" codeSpace=""></gn:nameStatus>
+      <gn:sourceOfName nilReason=""></gn:sourceOfName>
+      <gn:pronunciation nilReason="">
+        <gn:PronunciationOfName>
+          <gn:pronunciationSoundLink nilReason=""></gn:pronunciationSoundLink>
+          <gn:pronunciationIPA nilReason=""></gn:pronunciationIPA>
+        </gn:PronunciationOfName>
+      </gn:pronunciation>
+      <gn:spelling>
+        <gn:SpellingOfName>
+          <gn:text></gn:text>
+          <gn:script nilReason=""></gn:script>
+          <gn:transliterationScheme nilReason=""></gn:transliterationScheme>
+        </gn:SpellingOfName>
+      </gn:spelling>
+      <gn:grammaticalGender nilReason="" codeSpace=""></gn:grammaticalGender>
+      <gn:grammaticalNumber nilReason="" codeSpace=""></gn:grammaticalNumber>
+    </gn:GeographicalName>
+  </tn:geographicalName>
+  <tn:validFrom nilReason=""></tn:validFrom>
+  <tn:validTo nilReason=""></tn:validTo>
+  <tn:post owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <tn-ro:localRoadCode nilReason=""></tn-ro:localRoadCode>
+  <tn-ro:nationalRoadCode nilReason=""></tn-ro:nationalRoadCode>
+</tn-ro:Road>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tn-ro:RoadLink xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:tn-ro="urn:x-inspire:specification:gmlas:RoadTransportNetwork:3.0" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" gml:id="">
+  <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+    <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+  </gml:metaDataProperty>
+  <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+  <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <gml:identifier codeSpace=""></gml:identifier>
+  <gml:name codeSpace=""></gml:name>
+  <gml:boundedBy nilReason=""></gml:boundedBy>
+  <gml:location nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:location>
+  <net:beginLifespanVersion nilReason=""></net:beginLifespanVersion>
+  <net:inspireId>
+    <base:Identifier>
+      <base:localId></base:localId>
+      <base:namespace></base:namespace>
+      <base:versionId nilReason=""></base:versionId>
+    </base:Identifier>
+  </net:inspireId>
+  <net:endLifespanVersion nilReason=""></net:endLifespanVersion>
+  <net:inNetwork owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <net:centrelineGeometry nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+    <gml:Curve srsName="" srsDimension="" axisLabels="" uomLabels="" gml:id="">
+      <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+        <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+      </gml:metaDataProperty>
+      <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+      <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+      <gml:identifier codeSpace=""></gml:identifier>
+      <gml:name codeSpace=""></gml:name>
+      <gml:segments>
+        <gml:CubicSpline interpolation="cubicSpline" degree="3" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0">
+          <gml:vectorAtStart srsName="" srsDimension="" axisLabels="" uomLabels=""></gml:vectorAtStart>
+          <gml:vectorAtEnd srsName="" srsDimension="" axisLabels="" uomLabels=""></gml:vectorAtEnd>
+        </gml:CubicSpline>
+        <gml:LineStringSegment interpolation="linear" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0"></gml:LineStringSegment>
+        <gml:ArcString interpolation="circularArc3Points" numArc="" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0"></gml:ArcString>
+        <gml:Arc numArc="1" interpolation="circularArc3Points" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0"></gml:Arc>
+        <gml:Circle numArc="1" interpolation="circularArc3Points" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0"></gml:Circle>
+        <gml:Clothoid interpolation="clothoid" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0">
+          <gml:refLocation>
+            <gml:AffinePlacement>
+              <gml:location srsName="" srsDimension="" axisLabels="" uomLabels=""></gml:location>
+              <gml:refDirection srsName="" srsDimension="" axisLabels="" uomLabels=""></gml:refDirection>
+              <gml:inDimension></gml:inDimension>
+              <gml:outDimension></gml:outDimension>
+            </gml:AffinePlacement>
+          </gml:refLocation>
+          <gml:scaleFactor></gml:scaleFactor>
+          <gml:startParameter></gml:startParameter>
+          <gml:endParameter></gml:endParameter>
+        </gml:Clothoid>
+        <gml:ArcByCenterPoint interpolation="circularArcCenterPointWithRadius" numArc="1" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0">
+          <gml:radius uom=""></gml:radius>
+          <gml:startAngle uom=""></gml:startAngle>
+          <gml:endAngle uom=""></gml:endAngle>
+        </gml:ArcByCenterPoint>
+        <gml:CircleByCenterPoint interpolation="circularArcCenterPointWithRadius" numArc="1" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0">
+          <gml:radius uom=""></gml:radius>
+        </gml:CircleByCenterPoint>
+        <gml:ArcStringByBulge interpolation="circularArc2PointWithBulge" numArc="" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0">
+          <gml:bulge></gml:bulge>
+          <gml:normal srsName="" srsDimension="" axisLabels="" uomLabels=""></gml:normal>
+        </gml:ArcStringByBulge>
+        <gml:ArcByBulge numArc="1" interpolation="circularArc2PointWithBulge" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0">
+          <gml:bulge></gml:bulge>
+          <gml:normal srsName="" srsDimension="" axisLabels="" uomLabels=""></gml:normal>
+        </gml:ArcByBulge>
+        <gml:GeodesicString interpolation="geodesic" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0"></gml:GeodesicString>
+        <gml:Geodesic interpolation="geodesic" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0"></gml:Geodesic>
+        <gml:BSpline interpolation="polynomialSpline" isPolynomial="" knotType="" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0">
+          <gml:degree></gml:degree>
+          <gml:knot>
+            <gml:Knot>
+              <gml:value></gml:value>
+              <gml:multiplicity></gml:multiplicity>
+              <gml:weight></gml:weight>
+            </gml:Knot>
+          </gml:knot>
+          <gml:knot>
+            <gml:Knot>
+              <gml:value></gml:value>
+              <gml:multiplicity></gml:multiplicity>
+              <gml:weight></gml:weight>
+            </gml:Knot>
+          </gml:knot>
+        </gml:BSpline>
+        <gml:Bezier interpolation="polynomialSpline" isPolynomial="true" numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0">
+          <gml:degree></gml:degree>
+          <gml:knot>
+            <gml:Knot>
+              <gml:value></gml:value>
+              <gml:multiplicity></gml:multiplicity>
+              <gml:weight></gml:weight>
+            </gml:Knot>
+          </gml:knot>
+          <gml:knot>
+            <gml:Knot>
+              <gml:value></gml:value>
+              <gml:multiplicity></gml:multiplicity>
+              <gml:weight></gml:weight>
+            </gml:Knot>
+          </gml:knot>
+        </gml:Bezier>
+        <gml:OffsetCurve numDerivativesAtStart="0" numDerivativesAtEnd="0" numDerivativeInterior="0">
+          <gml:offsetBase/>
+          <gml:distance uom=""></gml:distance>
+          <gml:refDirection srsName="" srsDimension="" axisLabels="" uomLabels=""></gml:refDirection>
+        </gml:OffsetCurve>
+      </gml:segments>
+    </gml:Curve>
+    <gml:OrientableCurve orientation="+" srsName="" srsDimension="" axisLabels="" uomLabels="" gml:id="">
+      <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+        <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+      </gml:metaDataProperty>
+      <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+      <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+      <gml:identifier codeSpace=""></gml:identifier>
+      <gml:name codeSpace=""></gml:name>
+      <gml:baseCurve/>
+    </gml:OrientableCurve>
+    <gml:LineString srsName="" srsDimension="" axisLabels="" uomLabels="" gml:id="">
+      <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+        <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+      </gml:metaDataProperty>
+      <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+      <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+      <gml:identifier codeSpace=""></gml:identifier>
+      <gml:name codeSpace=""></gml:name>
+    </gml:LineString>
+    <gml:CompositeCurve aggregationType="" srsName="" srsDimension="" axisLabels="" uomLabels="" gml:id="">
+      <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+        <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+      </gml:metaDataProperty>
+      <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+      <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+      <gml:identifier codeSpace=""></gml:identifier>
+      <gml:name codeSpace=""></gml:name>
+      <gml:curveMember/>
+    </gml:CompositeCurve>
+  </net:centrelineGeometry>
+  <net:fictitious></net:fictitious>
+  <net:endNode owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <net:startNode owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <tn:geographicalName nilReason="">
+    <gn:GeographicalName>
+      <gn:language nilReason=""></gn:language>
+      <gn:nativeness nilReason="" codeSpace=""></gn:nativeness>
+      <gn:nameStatus nilReason="" codeSpace=""></gn:nameStatus>
+      <gn:sourceOfName nilReason=""></gn:sourceOfName>
+      <gn:pronunciation nilReason="">
+        <gn:PronunciationOfName>
+          <gn:pronunciationSoundLink nilReason=""></gn:pronunciationSoundLink>
+          <gn:pronunciationIPA nilReason=""></gn:pronunciationIPA>
+        </gn:PronunciationOfName>
+      </gn:pronunciation>
+      <gn:spelling>
+        <gn:SpellingOfName>
+          <gn:text></gn:text>
+          <gn:script nilReason=""></gn:script>
+          <gn:transliterationScheme nilReason=""></gn:transliterationScheme>
+        </gn:SpellingOfName>
+      </gn:spelling>
+      <gn:grammaticalGender nilReason="" codeSpace=""></gn:grammaticalGender>
+      <gn:grammaticalNumber nilReason="" codeSpace=""></gn:grammaticalNumber>
+    </gn:GeographicalName>
+  </tn:geographicalName>
+  <tn:validFrom nilReason=""></tn:validFrom>
+  <tn:validTo nilReason=""></tn:validTo>
+</tn-ro:RoadLink>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tn-ro:NumberOfLanes xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:tn-ro="urn:x-inspire:specification:gmlas:RoadTransportNetwork:3.0" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" gml:id="">
+  <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+    <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+  </gml:metaDataProperty>
+  <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+  <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <gml:identifier codeSpace=""></gml:identifier>
+  <gml:name codeSpace=""></gml:name>
+  <gml:boundedBy nilReason=""></gml:boundedBy>
+  <gml:location nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:location>
+  <net:networkRef nilReason="">
+    <net:NetworkReference>
+      <net:element owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+    </net:NetworkReference>
+  </net:networkRef>
+  <net:inspireId>
+    <base:Identifier>
+      <base:localId></base:localId>
+      <base:namespace></base:namespace>
+      <base:versionId nilReason=""></base:versionId>
+    </base:Identifier>
+  </net:inspireId>
+  <net:beginLifespanVersion nilReason=""></net:beginLifespanVersion>
+  <net:endLifespanVersion nilReason=""></net:endLifespanVersion>
+  <tn:validFrom nilReason=""></tn:validFrom>
+  <tn:validTo nilReason=""></tn:validTo>
+  <tn-ro:direction nilReason="" codeSpace=""></tn-ro:direction>
+  <tn-ro:minMaxNumberOfLanes nilReason=""></tn-ro:minMaxNumberOfLanes>
+  <tn-ro:numberOfLanes></tn-ro:numberOfLanes>
+</tn-ro:NumberOfLanes>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tn-ro:SpeedLimit xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:tn-ro="urn:x-inspire:specification:gmlas:RoadTransportNetwork:3.0" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" gml:id="">
+  <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+    <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+  </gml:metaDataProperty>
+  <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+  <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+  <gml:identifier codeSpace=""></gml:identifier>
+  <gml:name codeSpace=""></gml:name>
+  <gml:boundedBy nilReason=""></gml:boundedBy>
+  <gml:location nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:location>
+  <net:networkRef nilReason="">
+    <net:NetworkReference>
+      <net:element owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+    </net:NetworkReference>
+  </net:networkRef>
+  <net:inspireId>
+    <base:Identifier>
+      <base:localId></base:localId>
+      <base:namespace></base:namespace>
+      <base:versionId nilReason=""></base:versionId>
+    </base:Identifier>
+  </net:inspireId>
+  <net:beginLifespanVersion nilReason=""></net:beginLifespanVersion>
+  <net:endLifespanVersion nilReason=""></net:endLifespanVersion>
+  <tn:validFrom nilReason=""></tn:validFrom>
+  <tn:validTo nilReason=""></tn:validTo>
+  <tn-ro:areaCondition nilReason="" codeSpace=""></tn-ro:areaCondition>
+  <tn-ro:direction nilReason="" codeSpace=""></tn-ro:direction>
+  <tn-ro:laneExtension nilReason=""></tn-ro:laneExtension>
+  <tn-ro:speedLimitMinMaxType></tn-ro:speedLimitMinMaxType>
+  <tn-ro:speedLimitSource nilReason="" codeSpace=""></tn-ro:speedLimitSource>
+  <tn-ro:speedLimitValue uom=""></tn-ro:speedLimitValue>
+  <tn-ro:startLane nilReason=""></tn-ro:startLane>
+  <tn-ro:validityPeriod nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+    <gml:TimePeriod frame="#ISO-8601" gml:id="">
+      <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+        <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+      </gml:metaDataProperty>
+      <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+      <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+      <gml:identifier codeSpace=""></gml:identifier>
+      <gml:name codeSpace=""></gml:name>
+      <gml:relatedTime relativePosition="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+        <gml:TimeInstant frame="#ISO-8601" gml:id="">
+          <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+            <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+          </gml:metaDataProperty>
+          <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+          <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+          <gml:identifier codeSpace=""></gml:identifier>
+          <gml:name codeSpace=""></gml:name>
+          <gml:relatedTime/>
+          <gml:timePosition frame="#ISO-8601" calendarEraName="" indeterminatePosition=""></gml:timePosition>
+        </gml:TimeInstant>
+        <gml:TimePeriod/>
+        <gml:TimeInstant frame="#ISO-8601" gml:id="">
+          <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+            <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+          </gml:metaDataProperty>
+          <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+          <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+          <gml:identifier codeSpace=""></gml:identifier>
+          <gml:name codeSpace=""></gml:name>
+          <gml:relatedTime/>
+          <gml:timePosition frame="#ISO-8601" calendarEraName="" indeterminatePosition=""></gml:timePosition>
+        </gml:TimeInstant>
+        <gml:TimePeriod/>
+        <gml:TimeNode gml:id="">
+          <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+            <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+          </gml:metaDataProperty>
+          <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+          <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+          <gml:identifier codeSpace=""></gml:identifier>
+          <gml:name codeSpace=""></gml:name>
+          <gml:relatedTime/>
+          <gml:complex owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+          <gml:previousEdge nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+            <gml:TimeEdge gml:id="">
+              <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+              </gml:metaDataProperty>
+              <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+              <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:identifier codeSpace=""></gml:identifier>
+              <gml:name codeSpace=""></gml:name>
+              <gml:relatedTime/>
+              <gml:complex owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:start nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeNode/>
+              </gml:start>
+              <gml:end nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeNode/>
+              </gml:end>
+              <gml:extent/>
+            </gml:TimeEdge>
+          </gml:previousEdge>
+          <gml:nextEdge nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+            <gml:TimeEdge gml:id="">
+              <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+              </gml:metaDataProperty>
+              <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+              <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:identifier codeSpace=""></gml:identifier>
+              <gml:name codeSpace=""></gml:name>
+              <gml:relatedTime/>
+              <gml:complex owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:start nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeNode/>
+              </gml:start>
+              <gml:end nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeNode/>
+              </gml:end>
+              <gml:extent/>
+            </gml:TimeEdge>
+          </gml:nextEdge>
+          <gml:position nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+            <gml:TimeInstant frame="#ISO-8601" gml:id="">
+              <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+              </gml:metaDataProperty>
+              <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+              <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:identifier codeSpace=""></gml:identifier>
+              <gml:name codeSpace=""></gml:name>
+              <gml:relatedTime/>
+              <gml:timePosition frame="#ISO-8601" calendarEraName="" indeterminatePosition=""></gml:timePosition>
+            </gml:TimeInstant>
+          </gml:position>
+        </gml:TimeNode>
+        <gml:TimeEdge gml:id="">
+          <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+            <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+          </gml:metaDataProperty>
+          <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+          <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+          <gml:identifier codeSpace=""></gml:identifier>
+          <gml:name codeSpace=""></gml:name>
+          <gml:relatedTime/>
+          <gml:complex owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+          <gml:start nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+            <gml:TimeNode gml:id="">
+              <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+              </gml:metaDataProperty>
+              <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+              <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:identifier codeSpace=""></gml:identifier>
+              <gml:name codeSpace=""></gml:name>
+              <gml:relatedTime/>
+              <gml:complex owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:previousEdge nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeEdge/>
+              </gml:previousEdge>
+              <gml:nextEdge nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeEdge/>
+              </gml:nextEdge>
+              <gml:position nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeInstant frame="#ISO-8601" gml:id="">
+                  <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                    <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+                  </gml:metaDataProperty>
+                  <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+                  <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+                  <gml:identifier codeSpace=""></gml:identifier>
+                  <gml:name codeSpace=""></gml:name>
+                  <gml:relatedTime/>
+                  <gml:timePosition frame="#ISO-8601" calendarEraName="" indeterminatePosition=""></gml:timePosition>
+                </gml:TimeInstant>
+              </gml:position>
+            </gml:TimeNode>
+          </gml:start>
+          <gml:end nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+            <gml:TimeNode gml:id="">
+              <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+              </gml:metaDataProperty>
+              <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+              <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:identifier codeSpace=""></gml:identifier>
+              <gml:name codeSpace=""></gml:name>
+              <gml:relatedTime/>
+              <gml:complex owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:previousEdge nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeEdge/>
+              </gml:previousEdge>
+              <gml:nextEdge nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeEdge/>
+              </gml:nextEdge>
+              <gml:position nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeInstant frame="#ISO-8601" gml:id="">
+                  <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                    <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+                  </gml:metaDataProperty>
+                  <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+                  <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+                  <gml:identifier codeSpace=""></gml:identifier>
+                  <gml:name codeSpace=""></gml:name>
+                  <gml:relatedTime/>
+                  <gml:timePosition frame="#ISO-8601" calendarEraName="" indeterminatePosition=""></gml:timePosition>
+                </gml:TimeInstant>
+              </gml:position>
+            </gml:TimeNode>
+          </gml:end>
+          <gml:extent/>
+        </gml:TimeEdge>
+        <gml:TimeNode gml:id="">
+          <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+            <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+          </gml:metaDataProperty>
+          <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+          <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+          <gml:identifier codeSpace=""></gml:identifier>
+          <gml:name codeSpace=""></gml:name>
+          <gml:relatedTime/>
+          <gml:complex owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+          <gml:previousEdge nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+            <gml:TimeEdge gml:id="">
+              <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+              </gml:metaDataProperty>
+              <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+              <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:identifier codeSpace=""></gml:identifier>
+              <gml:name codeSpace=""></gml:name>
+              <gml:relatedTime/>
+              <gml:complex owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:start nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeNode/>
+              </gml:start>
+              <gml:end nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeNode/>
+              </gml:end>
+              <gml:extent/>
+            </gml:TimeEdge>
+          </gml:previousEdge>
+          <gml:nextEdge nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+            <gml:TimeEdge gml:id="">
+              <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+              </gml:metaDataProperty>
+              <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+              <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:identifier codeSpace=""></gml:identifier>
+              <gml:name codeSpace=""></gml:name>
+              <gml:relatedTime/>
+              <gml:complex owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:start nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeNode/>
+              </gml:start>
+              <gml:end nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeNode/>
+              </gml:end>
+              <gml:extent/>
+            </gml:TimeEdge>
+          </gml:nextEdge>
+          <gml:position nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+            <gml:TimeInstant frame="#ISO-8601" gml:id="">
+              <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+              </gml:metaDataProperty>
+              <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+              <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:identifier codeSpace=""></gml:identifier>
+              <gml:name codeSpace=""></gml:name>
+              <gml:relatedTime/>
+              <gml:timePosition frame="#ISO-8601" calendarEraName="" indeterminatePosition=""></gml:timePosition>
+            </gml:TimeInstant>
+          </gml:position>
+        </gml:TimeNode>
+        <gml:TimeEdge gml:id="">
+          <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+            <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+          </gml:metaDataProperty>
+          <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+          <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+          <gml:identifier codeSpace=""></gml:identifier>
+          <gml:name codeSpace=""></gml:name>
+          <gml:relatedTime/>
+          <gml:complex owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+          <gml:start nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+            <gml:TimeNode gml:id="">
+              <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+              </gml:metaDataProperty>
+              <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+              <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:identifier codeSpace=""></gml:identifier>
+              <gml:name codeSpace=""></gml:name>
+              <gml:relatedTime/>
+              <gml:complex owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:previousEdge nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeEdge/>
+              </gml:previousEdge>
+              <gml:nextEdge nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeEdge/>
+              </gml:nextEdge>
+              <gml:position nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeInstant frame="#ISO-8601" gml:id="">
+                  <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                    <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+                  </gml:metaDataProperty>
+                  <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+                  <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+                  <gml:identifier codeSpace=""></gml:identifier>
+                  <gml:name codeSpace=""></gml:name>
+                  <gml:relatedTime/>
+                  <gml:timePosition frame="#ISO-8601" calendarEraName="" indeterminatePosition=""></gml:timePosition>
+                </gml:TimeInstant>
+              </gml:position>
+            </gml:TimeNode>
+          </gml:start>
+          <gml:end nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+            <gml:TimeNode gml:id="">
+              <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+              </gml:metaDataProperty>
+              <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+              <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:identifier codeSpace=""></gml:identifier>
+              <gml:name codeSpace=""></gml:name>
+              <gml:relatedTime/>
+              <gml:complex owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+              <gml:previousEdge nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeEdge/>
+              </gml:previousEdge>
+              <gml:nextEdge nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeEdge/>
+              </gml:nextEdge>
+              <gml:position nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="" owns="false">
+                <gml:TimeInstant frame="#ISO-8601" gml:id="">
+                  <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate="">
+                    <gml:GenericMetaData gml:id=""></gml:GenericMetaData>
+                  </gml:metaDataProperty>
+                  <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""></gml:description>
+                  <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:role="" xlink:arcrole="" xlink:title="" xlink:show="" xlink:actuate=""/>
+                  <gml:identifier codeSpace=""></gml:identifier>
+                  <gml:name codeSpace=""></gml:name>
+                  <gml:relatedTime/>
+                  <gml:timePosition frame="#ISO-8601" calendarEraName="" indeterminatePosition=""></gml:timePosition>
+                </gml:TimeInstant>
+              </gml:position>
+            </gml:TimeNode>
+          </gml:end>
+          <gml:extent/>
+        </gml:TimeEdge>
+      </gml:relatedTime>
+    </gml:TimePeriod>
+  </tn-ro:validityPeriod>
+  <tn-ro:vehicleType nilReason="" codeSpace=""></tn-ro:vehicleType>
+  <tn-ro:weatherCondition nilReason="" codeSpace=""></tn-ro:weatherCondition>
+</tn-ro:SpeedLimit>
+

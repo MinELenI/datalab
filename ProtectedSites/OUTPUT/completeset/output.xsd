@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fme="http://www.safe.com/xml/xmltables" targetNamespace="http://www.safe.com/xml/xmltables" elementFormDefault="qualified">
+
+<xs:element name="xml-tables" type="fme:xml-tablesType"/>
+<xs:element name="NewFeatureType-table" type="fme:NewFeatureType-tableType"/>
+<xs:element name="NewFeatureType" type="fme:NewFeatureTypeType"/>
+<xs:element name="1419-table" type="fme:1419-tableType"/>
+<xs:element name="1419" type="fme:1419Type"/>
+<xs:element name="1451-table" type="fme:1451-tableType"/>
+<xs:element name="1451" type="fme:1451Type"/>
+<xs:element name="1447-table" type="fme:1447-tableType"/>
+<xs:element name="1447" type="fme:1447Type"/>
+<xs:element name="1448-table" type="fme:1448-tableType"/>
+<xs:element name="1448" type="fme:1448Type"/>
+<xs:element name="1449-table" type="fme:1449-tableType"/>
+<xs:element name="1449" type="fme:1449Type"/>
+
+<xs:complexType name="xml-tablesType">
+<xs:sequence>
+<xs:element ref="fme:NewFeatureType-table" minOccurs="0"/>
+<xs:element ref="fme:1419-table" minOccurs="0"/>
+<xs:element ref="fme:1451-table" minOccurs="0"/>
+<xs:element ref="fme:1447-table" minOccurs="0"/>
+<xs:element ref="fme:1448-table" minOccurs="0"/>
+<xs:element ref="fme:1449-table" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="NewFeatureType-tableType">
+<xs:sequence>
+<xs:element ref="fme:NewFeatureType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="NewFeatureTypeType">
+<xs:sequence>
+<xs:element name="txt_line">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:maxLength value="30"/>
+</xs:restriction>
+</xs:simpleType></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="1419-tableType">
+<xs:sequence>
+<xs:element ref="fme:1419" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="1419Type">
+<xs:sequence>
+<xs:element name="txt_line">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:maxLength value="30"/>
+</xs:restriction>
+</xs:simpleType></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="1451-tableType">
+<xs:sequence>
+<xs:element ref="fme:1451" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="1451Type">
+<xs:sequence>
+<xs:element name="txt_line">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:maxLength value="30"/>
+</xs:restriction>
+</xs:simpleType></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="1447-tableType">
+<xs:sequence>
+<xs:element ref="fme:1447" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="1447Type">
+<xs:sequence>
+<xs:element name="txt_line">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:maxLength value="30"/>
+</xs:restriction>
+</xs:simpleType></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="1448-tableType">
+<xs:sequence>
+<xs:element ref="fme:1448" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="1448Type">
+<xs:sequence>
+<xs:element name="txt_line">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:maxLength value="30"/>
+</xs:restriction>
+</xs:simpleType></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="1449-tableType">
+<xs:sequence>
+<xs:element ref="fme:1449" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="1449Type">
+<xs:sequence>
+<xs:element name="txt_line">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:maxLength value="30"/>
+</xs:restriction>
+</xs:simpleType></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

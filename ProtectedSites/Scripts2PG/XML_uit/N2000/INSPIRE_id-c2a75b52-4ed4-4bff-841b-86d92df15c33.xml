@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:SpatialDataSet xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" 
+xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+xmlns:gml="http://www.opengis.net/gml/3.2" 
+xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" 
+xmlns:ps="urn:x-inspire:specification:gmlas:ProtectedSites:3.0" 
+xmlns:gco="http://www.isotc211.org/2005/gco" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:gss="http://www.isotc211.org/2005/gss" 
+xmlns:gsr="http://www.isotc211.org/2005/gsr" 
+xmlns:gts="http://www.isotc211.org/2005/gts" 
+xsi:schemaLocation="urn:x-inspire:specification:gmlas:BaseTypes:3.2 http://inspire.ec.europa.eu/schemas/base/3.2/BaseTypes.xsd
+urn:x-inspire:specification:gmlas:ProtectedSites:3.0 http://inspire.ec.europa.eu/schemas/ps/3.0/ProtectedSites.xsd                      
+urn:x-inspire:specification:gmlas:GeographicalNames:3.0 http://inspire.ec.europa.eu/schemas/gn/3.0/GeographicalNames.xsd" 
+ gml:id="NL.DLG.PS">
+  <base:identifier>
+    <base:Identifier>
+      <base:localId>0</base:localId>
+      <base:namespace>NL.DLG.PS</base:namespace>
+    </base:Identifier>
+  </base:identifier>
+  <base:metadata xsi:nil="true"/>
+  <base:member>
+<ps:ProtectedSite xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:ps="urn:x-inspire:specification:gmlas:ProtectedSites:3.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gts="http://www.isotc211.org/2005/gts" xsi:schemaLocation="urn:x-inspire:specification:gmlas:BaseTypes:3.2 http://inspire.ec.europa.eu/schemas/base/3.2/BaseTypes.xsd urn:x-inspire:specification:gmlas:ProtectedSites:3.0 http://inspire.ec.europa.eu/schemas/ps/3.0/ProtectedSites.xsd                       urn:x-inspire:specification:gmlas:GeographicalNames:3.0 http://inspire.ec.europa.eu/schemas/gn/3.0/GeographicalNames.xsd" gml:id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33">
+<gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/">urn:x-inspire:object:id:NL.PS.N2000
+</gml:identifier>
+  <gml:name codeSpace=""><!-- String value. --></gml:name>
+  <gml:boundedBy nilReason="">
+    <gml:Envelope srsName="EPSG:4258" srsDimension="2" axisLabels="" uomLabels="">
+      <gml:lowerCorner srsName="EPSG:4258" srsDimension="2" axisLabels="" uomLabels="">2.0 50.0</gml:lowerCorner>
+      <gml:upperCorner srsName="EPSG:4258" srsDimension="2" axisLabels="" uomLabels="">8.0 56.0</gml:upperCorner>
+      <!-- End Choice 2 -->
+    </gml:Envelope>
+    <!-- End Choice 1 -->
+  </gml:boundedBy>
+  <gml:location nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other">
+        <gml:MultiSurface aggregationType="table" srsName="EPSG:4258" srsDimension="2" axisLabels="" uomLabels="" gml:id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33G">
+      <!-- AggregationType moet nog gecontroleerd worden -->
+      <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other">
+        <gml:GenericMetaData gml:id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33MD">
+        </gml:GenericMetaData>
+      </gml:metaDataProperty>
+      <gml:description nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other"><!-- String value. --></gml:description>
+      <gml:descriptionReference owns="false" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other"/>
+      <gml:identifier codeSpace="">NL2003047-</gml:identifier>
+      <gml:name codeSpace=""><!-- String value. --></gml:name>
+      <gml:surfaceMember nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other" owns="false">
+      </gml:surfaceMember>
+    </gml:MultiSurface>
+  </gml:location>
+  <ps:geometry nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other" owns="false">
+    <gml:MultiSurface aggregationType="table" srsName="EPSG:4258" srsDimension="2" axisLabels="" uomLabels="" gml:id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33G2">
+      <!-- AggregationType moet nog gecontroleerd worden -->
+      <gml:metaDataProperty about="" nilReason="" gml:remoteSchema="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other">
+        <gml:GenericMetaData gml:id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33MD2">
+        </gml:GenericMetaData>
+      </gml:metaDataProperty>
+            <gml:surfaceMember>
+      <gml:Surface gml:id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33S">
+      <gml:patches>
+<gml:PolygonPatch>
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>4.810537254 51.558767988 4.810441028 51.558803019 4.809915738 51.559056428 4.809858299 51.559091993 4.809797637 51.559145895 4.809733981 51.55919073 4.809579381 51.559260646 4.809477838 51.559297339 4.809370409 51.559349063 4.809291995 51.559380458 4.809247187 51.559404497 4.809157449 51.55946214 4.809046075 51.559504114 4.808960046 51.559547907 4.808832063 51.559626077 4.808709617 51.559683466 4.808591475 51.559756355 4.808483605 51.559820165 4.808399276 51.559858303 4.808116023 51.55995217 4.808100736 51.559954575 4.808078514 51.55995807 4.808084399 51.559961334 4.80803429 51.559982066 4.807937663 51.560007547 4.807851694 51.560013611 4.807853467 51.560073638 4.80776229 51.560056906 4.807730557 51.559974422 4.807677825 51.55988696 4.807645279 51.559837494 4.807598949 51.559790407 4.807587504 51.559778478 4.807511398 51.559731932 4.807454279 51.559708452 4.807434492 51.559688491 4.807431253 51.559672234 4.807327069 51.559635683 4.807301371 51.559626557 4.806934439 51.559475988 4.806808273 51.559424215 4.80679272 51.559417794 4.806564255 51.559323309 4.806503266 51.55930081 4.806243147 51.559208984 4.806055687 51.55915218 4.805104972 51.558773532 4.804999847 51.558733864 4.804949409 51.558723175 4.804910637 51.558719845 4.804887562 51.558720598 4.804813663 51.558684452 4.804659622 51.558581999 4.80462656 51.558550654 4.804593466 51.55851341 4.804564073 51.558433488 4.804561924 51.558364146 4.804538249 51.55832552 4.804665636 51.558165858 4.804665911 51.558165512 4.804671319 51.558158734 4.804729038 51.558086391 4.804836423 51.557951795 4.805131983 51.55759935 4.805270541 51.557585173 4.805376603 51.557499444 4.805310484 51.557445586 4.805160375 51.557430655 4.805160314 51.557430656 4.805160385 51.557430554 4.805186676 51.557392202 4.80469064 51.55739282 4.803846243 51.557404059 4.802417937 51.557424733 4.801283635 51.557438997 4.80110135 51.557439207 4.801081799 51.557452873 4.80101787 51.557492159 4.800922619 51.557513592 4.800867771 51.557521182 4.800790162 51.557529221 4.8006807 51.557534288 4.800566814 51.557533717 4.800462456 51.557527855 4.800463494 51.557525895 4.800202197 51.557433572 4.800028362 51.557355451 4.799825945 51.557222692 4.799688971 51.557099249 4.799536534 51.556900168 4.799536492 51.556900071 4.799560653 51.556880318 4.799575995 51.556821302 4.799540205 51.556771117 4.799469455 51.556748612 4.799394322 51.556578857 4.799440381 51.556568016 4.799488909 51.556547551 4.79922701 51.556247187 4.799111597 51.556188463 4.798751879 51.556005431 4.798393977 51.555824742 4.798532224 51.555422562 4.798533087 51.555422745 4.798532692 51.555422231 4.798571634 51.555394677 4.798592568 51.555372697 4.798613965 51.555354128 4.798626079 51.555343615 4.798639275 51.555336752 4.798647574 51.555333731 4.798670669 51.555323113 4.798694661 51.555313328 4.798730989 51.555303785 4.799263313 51.555451802 4.799679361 51.555567839 4.799692231 51.555571469 4.799739099 51.555505981 4.799669223 51.555486474 4.799722196 51.555414524 4.799936111 51.55512393 4.800007996 51.555025584 4.800028943 51.554996925 4.800044711 51.554975348 4.8002152 51.554742066 4.800166905 51.554425769 4.800120628 51.554107933 4.800197018 51.554001233 4.800256445 51.553919257 4.800333297 51.553811038 4.800374603 51.553749809 4.800421891 51.553677909 4.800472502 51.553596347 4.800565388 51.553435562 4.800646149 51.553292528 4.800718478 51.553157087 4.800789422 51.553017117 4.800865297 51.55286148 4.800920788 51.552748911 4.800978044 51.55262624 4.801026079 51.552525087 4.801091293 51.552378771 4.801153363 51.55223803 4.801195905 51.55214892 4.801197168 51.552146275 4.801991602 51.552278912 4.802479711 51.55236041 4.802508769 51.55211258 4.802521272 51.55200602 4.802770808 51.552048902 4.802864373 51.552065362 4.802949188 51.55208061 4.803336234 51.552146979 4.803347713 51.552148947 4.803423637 51.552110043 4.803437132 51.552041066 4.803485194 51.551795409 4.803519049 51.551621394 4.803525682 51.551587415 4.803547906 51.551473653 4.803612254 51.551442708 4.803787434 51.551358463 4.803807034 51.551349058 4.803818826 51.551345178 4.803909631 51.551308833 4.803987339 51.551269091 4.80398742 51.551269057 4.80409536 51.551229177 4.804151448 51.551167334 4.804180599 51.55115123 4.804237777 51.551119647 4.804269424 51.551069053 4.80423485 51.551015029 4.803991068 51.550788342 4.803930232 51.550731747 4.803759497 51.550572909 4.803694956 51.550512324 4.80357514 51.550399876 4.80333219 51.550176221 4.803313207 51.550158746 4.803422682 51.55014263 4.805380825 51.549841438 4.806874978 51.549611503 4.806883683 51.549605528 4.806958031 51.549595239 4.807179764 51.549465877 4.807202512 51.549452597 4.807556635 51.549246944 4.807588279 51.549208603 4.807615426 51.549174328 4.807636372 51.549164156 4.807808758 51.548956863 4.810505098 51.549396043 4.811617559 51.549569503 4.813288282 51.549839237 4.813475294 51.549868922 4.813684212 51.549905714 4.813772635 51.549919849 4.814302965 51.55000463 4.814710815 51.550069837 4.814841504 51.550095835 4.814820762 51.550146989 4.815122382 51.550193913 4.814953982 51.550640034 4.814977048 51.55064737 4.815097281 51.550704534 4.815172406 51.550742627 4.815244016 51.550789001 4.815326666 51.550799967 4.815428487 51.550819322 4.815465982 51.550830177 4.815553886 51.550855613 4.815554706 51.550856057 4.815697931 51.550757497 4.815850925 51.550664238 4.815983264 51.550598943 4.816028762 51.550578896 4.81621796 51.550507271 4.816239262 51.550495284 4.81641664 51.550456709 4.816431682 51.550453861 4.816562126 51.550430668 4.816694907 51.550415243 4.81681954 51.550404273 4.816882954 51.550401672 4.816945711 51.550401061 4.817674784 51.550397941 4.817820505 51.550397316 4.818290661 51.550392626 4.818306677 51.55030726 4.818489038 51.549465994 4.818443364 51.549440639 4.818455337 51.549263196 4.818477113 51.54926038 4.818757413 51.549237587 4.819489364 51.549236287 4.819496986 51.549236349 4.820417618 51.549246634 4.820829775 51.549251981 4.820891488 51.549251446 4.822449182 51.549261193 4.822469717 51.549261121 4.823253109 51.54925835 4.823242757 51.549237795 4.823237663 51.549227698 4.823235281 51.549224262 4.823337556 51.549224373 4.823348715 51.549240447 4.823421926 51.54938107 4.823481687 51.549508883 4.823520883 51.549645099 4.823553324 51.549823027 4.823571667 51.549947143 4.823590266 51.550256016 4.823589848 51.550288842 4.823589273 51.550333046 4.823595112 51.550415375 4.823600328 51.550506313 4.82358428 51.550740053 4.823555831 51.550912204 4.823494002 51.551125219 4.823398662 51.551387287 4.823311029 51.551559154 4.823210589 51.551702246 4.823050201 51.551906579 4.822894659 51.552109694 4.822760895 51.552256007 4.822589359 51.552408006 4.822427382 51.552548303 4.822208566 51.552711831 4.821972352 51.552882869 4.821870059 51.55295693 4.821152609 51.552358775 4.820967641 51.552187654 4.820926873 51.552155475 4.820927557 51.552151312 4.820922244 51.552128248 4.820849282 51.552091894 4.820844696 51.552100067 4.820820072 51.552088623 4.820513236 51.551988822 4.820306772 51.551915627 4.820119037 51.55184028 4.81999106 51.551778141 4.819942724 51.551752064 4.819220085 51.552304457 4.818466363 51.552872986 4.81786734 51.553329063 4.817583513 51.553550432 4.817529532 51.553624048 4.817340745 51.553869031 4.817322265 51.553888607 4.81723922 51.553979916 4.816930695 51.554284413 4.816815265 51.554406504 4.81680365 51.554418798 4.816795661 51.554427928 4.816787527 51.554437003 4.816779253 51.554446032 4.816770836 51.554455007 4.816762258 51.554463927 4.816753559 51.554472792 4.816744284 51.554481995 4.816734866 51.554491137 4.816725282 51.554500214 4.816715551 51.554509226 4.816705676 51.554518167 4.816695631 51.554527055 4.816685441 51.554535865 4.816675109 51.554544618 4.816572372 51.55463766 4.816454254 51.554753275 4.816468977 51.554798984 4.816427955 51.554894244 4.81643784 51.5548939 4.816403291 51.55496828 4.816422967 51.554998152 4.81643852 51.555019302 4.816342394 51.55503025 4.816268946 51.555049629 4.81597572 51.555109967 4.815911906 51.555122134 4.815798016 51.555146644 4.815703661 51.555169115 4.815648345 51.555187486 4.815463164 51.555246527 4.815452349 51.555249529 4.815442838 51.555254038 4.815249194 51.555316573 4.815110973 51.555333875 4.814946881 51.555339533 4.814754105 51.555323982 4.814574701 51.555301755 4.814454869 51.555299764 4.8143485 51.555307077 4.814344263 51.555307368 4.814263037 51.555334497 4.814191233 51.555378561 4.814171956 51.555414167 4.814132772 51.555486627 4.814120165 51.555509941 4.814118103 51.555513499 4.814115852 51.555517002 4.814113401 51.55552046 4.814110745 51.555523861 4.814107895 51.555527202 4.814104852 51.555530469 4.81410164 51.555533679 4.814098241 51.555536808 4.814094657 51.555539857 4.814090914 51.555542829 4.814086999 51.555545713 4.814082907 51.555548508 4.814078678 51.555551222 4.814074291 51.555553822 4.814070419 51.555555971 4.814034974 51.55562292 4.814008683 51.555672578 4.813935022 51.555743003 4.813832521 51.555804299 4.813649144 51.555882894 4.813541598 51.555942479 4.813467945 51.555994085 4.813352987 51.55603397 4.813274277 51.556058023 4.813220699 51.556085776 4.813190476 51.556101432 4.81315354 51.556145071 4.813144809 51.556211883 4.813128463 51.556253072 4.813122 51.556269354 4.813056346 51.556320999 4.812951172 51.55638874 4.812958551 51.556426555 4.812967466 51.556472249 4.813021619 51.556519424 4.813094049 51.556555735 4.813254302 51.556613545 4.813441349 51.556690587 4.813581342 51.556756163 4.813638022 51.556808407 4.813673261 51.556899592 4.813670063 51.556947328 4.813532811 51.557093005 4.813500093 51.557123854 4.813449025 51.55718617 4.813365555 51.55728481 4.813338005 51.557317367 4.813326926 51.557325708 4.813346173 51.557341999 4.813237439 51.557344604 4.813118666 51.557345531 4.813114425 51.55734551 4.813110202 51.557345631 4.813105986 51.557345891 4.813101799 51.557346293 4.813097653 51.55734683 4.813093549 51.557347511 4.813089531 51.557348326 4.813085567 51.557349276 4.813081704 51.557350356 4.813077937 51.557351568 4.81307429 51.557352899 4.813070755 51.557354356 4.813067341 51.557355921 4.813064078 51.557357606 4.813060956 51.557359387 4.813057989 51.557361278 4.813055208 51.557363269 4.813052588 51.557365339 4.813050153 51.557367504 4.812989266 51.55741099 4.812889529 51.557481467 4.812869975 51.557494009 4.81283146 51.557501891 4.81280517 51.557506604 4.812684297 51.557528271 4.812625161 51.557541133 4.812582245 51.557550211 4.812507668 51.557572524 4.812482901 51.557580591 4.81243226 51.557599651 4.812430283 51.557600449 4.812299844 51.557653155 4.812292431 51.557656151 4.812157 51.557711449 4.812098743 51.557720758 4.811932707 51.557747289 4.811844466 51.55778621 4.811832203 51.557791534 4.811677919 51.557858521 4.811556806 51.557907293 4.811484667 51.557932223 4.811421687 51.557953987 4.811237856 51.558011997 4.811070268 51.558066235 4.811042189 51.558075699 4.811029528 51.558079967 4.811028834 51.558082211 4.811028362 51.558084468 4.811028069 51.558086746 4.811027986 51.558089022 4.811028103 51.55809105 4.811028117 51.558091303 4.811028431 51.558093581 4.811028951 51.558095829 4.811029691 51.558098072 4.811030613 51.558100278 4.811031722 51.558102448 4.811033039 51.558104577 4.811092844 51.558149888 4.811138546 51.558189019 4.811034432 51.558285799 4.810969116 51.558340984 4.810945836 51.558402406 4.810932563 51.558427005 4.810869231 51.558472786 4.810789455 51.558530451 4.810766102 51.558570699 4.810734873 51.558622524 4.810690642 51.558670325 4.810709808 51.55867727 4.810670288 51.558707259 4.810617846 51.558735413 4.810537254 51.558767988</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:PolygonPatch>
+</gml:patches>
+</gml:Surface>
+</gml:surfaceMember>
+</gml:MultiSurface>
+  </ps:geometry>
+  <ps:inspireID>
+    <base:Identifier>
+      <base:localId><!-- String value. --></base:localId>
+      <base:namespace><!-- String value. --></base:namespace>
+      <base:versionId nilReason=""><!-- String value. --></base:versionId>
+    </base:Identifier>
+  </ps:inspireID>
+  <ps:legalFoundationDate nilReason="">2000-01-01T00:00:00</ps:legalFoundationDate>
+  <!-- dit is een dummy datum. Deze moet nog worden aangepast -->
+  <ps:legalFoundationDocument nilReason="" owns="false">
+    <gmd:CI_Citation id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33CIC" uuid="">
+      <gmd:title gco:nilReason="">
+        <gco:CharacterString><!-- String value. --></gco:CharacterString>
+      </gmd:title>
+      <gmd:alternateTitle gco:nilReason="">
+        <gco:CharacterString><!-- String value. --></gco:CharacterString>
+      </gmd:alternateTitle>
+      <gmd:date uuidref="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other">
+        <gmd:CI_Date id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33D" uuid="">
+          <gmd:date gco:nilReason="">            
+          </gmd:date>
+          <gmd:dateType>
+            <gmd:CI_DateTypeCode codeList="" codeListValue="" codeSpace=""><!-- String value. --></gmd:CI_DateTypeCode>
+          </gmd:dateType>
+        </gmd:CI_Date>
+      </gmd:date>
+      <gmd:edition gco:nilReason="">
+        <gco:CharacterString><!-- String value. --></gco:CharacterString>
+      </gmd:edition>
+      <gmd:editionDate gco:nilReason="">
+      </gmd:editionDate>
+      <gmd:identifier uuidref="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other">
+        <gmd:MD_Identifier id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33MD3" uuid="">
+          <gmd:authority uuidref="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other">
+          </gmd:authority>
+          <gmd:code gco:nilReason="">
+            <gco:CharacterString><!-- String value. --></gco:CharacterString>
+          </gmd:code>
+        </gmd:MD_Identifier>
+      </gmd:identifier>
+      <gmd:citedResponsibleParty uuidref="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other">
+        <gmd:CI_ResponsibleParty id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33CIR" uuid="">
+          <gmd:individualName gco:nilReason="">
+            <gco:CharacterString><!-- String value. --></gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName gco:nilReason="">
+            <gco:CharacterString><!-- String value. --></gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName gco:nilReason="">
+            <gco:CharacterString><!-- String value. --></gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo uuidref="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other">
+            <gmd:CI_Contact id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33CIC2" uuid="">
+              <gmd:phone uuidref="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other">
+                <gmd:CI_Telephone id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33CIT" uuid="">
+                  <gmd:voice gco:nilReason="">
+                    <gco:CharacterString><!-- String value. --></gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile gco:nilReason="">
+                    <gco:CharacterString><!-- String value. --></gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address uuidref="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other">
+                <gmd:CI_Address id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33CIA" uuid="">
+                  <gmd:deliveryPoint gco:nilReason="">
+                    <gco:CharacterString><!-- String value. --></gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city gco:nilReason="">
+                    <gco:CharacterString><!-- String value. --></gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea gco:nilReason="">
+                    <gco:CharacterString><!-- String value. --></gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode gco:nilReason="">
+                    <gco:CharacterString><!-- String value. --></gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country gco:nilReason="">
+                    <gco:CharacterString><!-- String value. --></gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress gco:nilReason="">
+                    <gco:CharacterString><!-- String value. --></gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource uuidref="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other">
+                <gmd:CI_OnlineResource id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33CIO" uuid="">
+                  <gmd:linkage>
+                    <gmd:URL><!-- Any URI value. --></gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol gco:nilReason="">
+                    <gco:CharacterString><!-- String value. --></gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile gco:nilReason="">
+                    <gco:CharacterString><!-- String value. --></gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name gco:nilReason="">
+                    <gco:CharacterString><!-- String value. --></gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description gco:nilReason="">
+                    <gco:CharacterString><!-- String value. --></gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="" codeListValue="" codeSpace=""><!-- String value. --></gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+              <gmd:hoursOfService gco:nilReason="">
+                <gco:CharacterString><!-- String value. --></gco:CharacterString>
+              </gmd:hoursOfService>
+              <gmd:contactInstructions gco:nilReason="">
+                <gco:CharacterString><!-- String value. --></gco:CharacterString>
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="" codeListValue="" codeSpace=""><!-- String value. --></gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:citedResponsibleParty>
+      <gmd:presentationForm>
+        <gmd:CI_PresentationFormCode codeList="" codeListValue="" codeSpace=""><!-- String value. --></gmd:CI_PresentationFormCode>
+      </gmd:presentationForm>
+      <gmd:series uuidref="" xlink:type="simple" xlink:href="" xlink:title="" xlink:show="other" xlink:actuate="other">
+        <gmd:CI_Series id="id-c2a75b52-4ed4-4bff-841b-86d92df15c33CIS" uuid="">
+          <gmd:name gco:nilReason="">
+            <gco:CharacterString><!-- String value. --></gco:CharacterString>
+          </gmd:name>
+          <gmd:issueIdentification gco:nilReason="">
+            <gco:CharacterString><!-- String value. --></gco:CharacterString>
+          </gmd:issueIdentification>
+          <gmd:page gco:nilReason="">
+            <gco:CharacterString><!-- String value. --></gco:CharacterString>
+          </gmd:page>
+        </gmd:CI_Series>
+      </gmd:series>
+      <gmd:otherCitationDetails gco:nilReason="">
+        <gco:CharacterString><!-- String value. --></gco:CharacterString>
+      </gmd:otherCitationDetails>
+      <gmd:collectiveTitle gco:nilReason="">
+        <gco:CharacterString><!-- String value. --></gco:CharacterString>
+      </gmd:collectiveTitle>
+      <gmd:ISBN gco:nilReason="">
+        <gco:CharacterString><!-- String value. --></gco:CharacterString>
+      </gmd:ISBN>
+      <gmd:ISSN gco:nilReason="">
+        <gco:CharacterString><!-- String value. --></gco:CharacterString>
+      </gmd:ISSN>
+    </gmd:CI_Citation>
+  </ps:legalFoundationDocument>
+  <ps:siteDesignation nilReason="">
+    <ps:DesignationType>
+      <ps:designationScheme codeSpace="">natura2000</ps:designationScheme>
+      <ps:designation codeSpace="">specialAreaOfConservation</ps:designation>
+      <ps:percentageUnderDesignation>100</ps:percentageUnderDesignation>
+    </ps:DesignationType>
+  </ps:siteDesignation>
+  <ps:siteName nilReason="">
+    <gn:GeographicalName>
+      <gn:language nilReason=""><!-- String value. --></gn:language>
+      <gn:nativeness nilReason="" codeSpace=""><!-- String value. --></gn:nativeness>
+      <gn:nameStatus nilReason="" codeSpace=""><!-- String value. --></gn:nameStatus>
+      <gn:sourceOfName nilReason=""><!-- String value. --></gn:sourceOfName>
+      <gn:pronunciation nilReason="">
+        <gn:PronunciationOfName>
+          <gn:pronunciationSoundLink nilReason=""><!-- Any URI value. --></gn:pronunciationSoundLink>
+          <gn:pronunciationIPA nilReason=""><!-- String value. --></gn:pronunciationIPA>
+        </gn:PronunciationOfName>
+      </gn:pronunciation>
+      <gn:spelling>
+        <gn:SpellingOfName>
+          <gn:text>Ulvenhoutse Bos</gn:text>
+          <gn:script nilReason=""><!-- String value. --></gn:script>
+          <gn:transliterationScheme nilReason=""><!-- String value. --></gn:transliterationScheme>
+        </gn:SpellingOfName>
+      </gn:spelling>
+      <gn:grammaticalGender nilReason="" codeSpace=""><!-- String value. --></gn:grammaticalGender>
+      <gn:grammaticalNumber nilReason="" codeSpace=""><!-- String value. --></gn:grammaticalNumber>
+    </gn:GeographicalName>
+  </ps:siteName>
+  <ps:siteProtectionClassification nilReason="">natureConservation</ps:siteProtectionClassification>
+  <!-- geen idee of "environment" de goede waarde is -->
+</ps:ProtectedSite>
+</base:member>
+</base:SpatialDataSet>

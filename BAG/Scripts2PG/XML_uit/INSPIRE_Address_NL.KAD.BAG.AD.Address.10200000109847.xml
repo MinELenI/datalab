@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:SpatialDataSet xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:ad="urn:x-inspire:specification:gmlas:Addresses:3.0" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xsi:schemaLocation="urn:x-inspire:specification:gmlas:BaseTypes:3.2 http://inspire.ec.europa.eu/schemas/base/3.2/BaseTypes.xsd                      urn:x-inspire:specification:gmlas:Addresses:3.0 http://inspire.ec.europa.eu/schemas/ad/3.0/Addresses.xsd                      urn:x-inspire:specification:gmlas:GeographicalNames:3.0 http://inspire.ec.europa.eu/schemas/gn/3.0/GeographicalNames.xsd" gml:id="Addresses.1">
+  <base:identifier>
+    <base:Identifier>
+      <base:localId>0</base:localId>
+      <base:namespace>NL.KAD.BAG</base:namespace>
+      <base:versionId xsi:nil="true" nilReason="other:unpopulated"/>
+    </base:Identifier>
+  </base:identifier>
+  <base:metadata xsi:nil="true"/>
+<base:member>
+<ad:Address  gml:id="NL.KAD.BAG.Address.10200000109847">
+    <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/">
+         urn:x-inspire:object:id:NL.KAD.BAG.AD.Address.10200000109847
+    </gml:identifier>
+    <ad:inspireId>
+    <base:Identifier>
+      <base:localId>10200000109847</base:localId>
+      <base:namespace>NL.KAD.BAG.AD.Address</base:namespace>
+      <base:versionId xsi:nil="true" nilReason="other:unpopulated"/>
+    </base:Identifier>
+    </ad:inspireId>
+  <ad:alternativeIdentifier xsi:nil="true" nilReason="other:unpopulated"/>
+  <ad:position>
+    <ad:GeographicPosition>
+      <ad:geometry>
+        <gml:Point srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2" gml:id="NL.KAD.BAG.AD.Address.10200000109847_P">
+         <gml:pos>53.320881225164257 6.9318561947855475</gml:pos>
+       </gml:Point>
+      </ad:geometry>
+      <ad:specification>entrance</ad:specification>
+      <ad:method>byOtherParty</ad:method>
+      <ad:default>true</ad:default>
+    </ad:GeographicPosition>
+  </ad:position>
+  <ad:locator>
+    <ad:AddressLocator>
+      <ad:designator>
+        <ad:LocatorDesignator>
+          <ad:designator>6</ad:designator>
+          <ad:type>2</ad:type>
+        </ad:LocatorDesignator>
+      </ad:designator>
+      <ad:designator>
+        <ad:LocatorDesignator>
+          <ad:designator>B</ad:designator>
+          <ad:type>3</ad:type>
+        </ad:LocatorDesignator>
+      </ad:designator>
+      <ad:level>1</ad:level>
+    </ad:AddressLocator>
+  </ad:locator>
+  <ad:validFrom>2010-02-02T00:00:00</ad:validFrom>
+  <ad:validTo xsi:nil="true" nilReason="other:unpopulated"/>
+  <ad:beginLifespanVersion xsi:nil="true" nilReason="other:unpopulated"/>
+  <ad:endLifespanVersion xsi:nil="true" nilReason="other:unpopulated"/>
+  <ad:component xlink:href="#NL.KAD.BAG.AD.ThoroughfareName.10300000000347"/>
+  <ad:component xlink:href="#NL.KAD.BAG.AD.AddressAreaName.3235"/>
+  <ad:component xlink:href="#NL.KAD.BAG.AD.PostalDescriptor.9936EG"/>
+</ad:Address>
+</base:member>
+</base:SpatialDataSet>
